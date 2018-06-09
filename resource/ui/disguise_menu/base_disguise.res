@@ -1,0 +1,100 @@
+"Resource/UI/disguise_menu/base_disguise.res"
+{
+	"ItemNameLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemName"
+		"font"			"ProductBold10"
+		"xpos"			"16"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"West"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		
+		"textinsetx"	"8"
+		"use_proportional_insets"	"1"
+	}
+	
+	"ClassIcon"	
+	{
+		"alpha"			"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ClassIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	
+	"NumberBg"	
+	{
+		"alpha"			"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_key_blank"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"RobotoBold10"
+		"fgcolor"		"White"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
+		
+		"bgcolor_override"	"Gray30"
+	}
+	
+	"NumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"RobotoBold10"
+		"fgcolor"		"White"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
+		
+		"bgcolor_override"	"Gray30"
+	}
+}
