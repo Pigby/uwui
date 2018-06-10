@@ -7,36 +7,179 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
-		"tall"		"480"
+		"tall"		"f0"
 		"visible"	"1"
 		"enabled"	"1"
 	}
-
+	
+	"MainBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"p1"
+		"tall"			"p1"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"zpos"			"4500"
+		
+		"bgcolor_override"	"Gray30Solid"
+	}
+	"MapLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"ProductBold16"
+		"labelText"		"%maplabel%"
+		"textAlignment"		"center"
+		"xpos"			"3"
+		"ypos"			"24+3"
+		"zpos"			"4501"
+		"wide"			"350"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"auto_wide_tocontents"		"1"
+		
+		"use_proportional_insets"	"1"
+		"textinsetx"				"8"
+	}
+	"MapType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapType"
+		"font"			"ProductBold10"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"501"
+		"wide"			"f0"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"auto_wide_tocontents"		"1"
+		
+		"use_proportional_insets"	"1"
+		"textinsetx"				"4"
+		
+		"pin_to_sibling"		"MapLabel"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"1"
+	}
+	"LoadingLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"LoadingLabel"
+		"font"			"ProductBold16"
+		"labelText"		"Loading..."
+		"textAlignment"	"west"
+		"xpos"			"3"
+		"ypos"			"r24-3"
+		"zpos"			"4501"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "white"
+		
+		"use_proportional_insets"	"1"
+		"textinsetx"				"4"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"OnYourWayLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"font"			"ProductBold16"
+		"labelText"		"#LoadingMap"
+		"textAlignment"		"west"
+		"xpos"			"3"
+		"ypos"			"r24-3"
+		"zpos"			"4501"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "white"
+		
+		"use_proportional_insets"	"1"
+		"textinsetx"				"4"
+	}
+	
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}	
-
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"MapInfo"
 		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
+		"ypos"		"999"
+		"wide"		"0"
+		"tall"		"0"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"blank"
 	
 		"Background"
 		{
@@ -186,69 +329,16 @@
 			"fgcolor_override" "137 191 60 255"
 		}
 	}
-
-	"OnYourWayLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"OnYourWayLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#LoadingMap"
-		"textAlignment"		"center"
-		"xpos"			"c+10"
-		"ypos"			"30"
-		"zpos"			"40"
-		"wide"			"285"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "173 168 148 255"
-	}					
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maplabel%"
-		"textAlignment"		"center"
-		"xpos"			"c-25"
-		"ypos"			"55"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	"MapType"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapType"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"c-25"
-		"ypos"			"80"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}					
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"999"
 		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"1"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"	"0"
 		"enabled"	"1"
 
 		"NonInteractiveHeaders"
@@ -2603,8 +2693,8 @@
 		"xpos"			"c-285"
 		"ypos"			"412"
 		"zpos"			"12"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -2615,39 +2705,28 @@
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
 		"font"			"ScoreboardVerySmall"
-		"font_hidef"	"Default"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
-		"textAlignment_hidef"		"north-west"
-		"textAlignment_lodef"		"north-west"
 		"xpos"			"c-245"
-		"xpos_lodef"			"c-180"
-		"xpos_hidef"			"c-180"
 		"ypos"			"405"
-		"ypos_hidef"			"362"
-		"ypos_lodef"			"362"
 		"zpos"			"12"
-		"wide"			"350"
-		"wide_hidef"		"360"
-		"wide_lodef"		"360"
-		"tall"			"48"
-		"tall_hidef"	"60"
-		"tall_lodef"	"60"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-	"NextTipButton" [$WIN32]
+	"NextTipButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
 		"xpos"			"c-248"
 		"ypos"			"310"
 		"zpos"			"6"
-		"wide"			"90"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2659,15 +2738,15 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-	"ResetStatsButton" [$WIN32]
+	"ResetStatsButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
 		"xpos"			"c130"
 		"ypos"			"270"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2686,8 +2765,8 @@
 		"xpos"			"r190"
 		"ypos"			"r50"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -2699,14 +2778,15 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 	}
-	"Footer" [$X360]
+	
+	"Footer"
 	{
+		"ypos"				"999"
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"bgcolor"			"TanDarker"
 		"paintbackground"	"1"
-		"tall"				"100"
-		"tall_lodef"				"60"
+		"tall"				"0"
 		"center"			"1"
 		"buttonoffsety"		"20"
 		"buttonoffsety_lodef"		"5"
@@ -2718,7 +2798,7 @@
 		"textadjust"		"3"
 		"textadjust_lodef"		"0"
 		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
+		"fgcolor"			"blank" 	
 		
 		"button"
 		{
@@ -2734,13 +2814,13 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}		
-	"TitleBanner" [$X360]
+	"TitleBanner"
 	{
 		"ControlName"	"ImagePanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"128"
+		"wide"			"0"
+		"tall"			"0"
 		"image"			"menu_header"
 		"visible_lodef"	"0"
 		"enabled_lodef"	"0"
