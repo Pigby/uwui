@@ -6,6 +6,10 @@
 	"Spacer"
 	{
 	}
+	"ItemEffectMeter"
+	{
+		"visible"		"0"
+	}
 	
 	"Background"
 	{

@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"Product8"
+		"font"			"Roboto8"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"Product8"
+		"font"			"Roboto8"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"

@@ -99,7 +99,7 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"white"
 		
-		"bgcolor_override"	"Gray30"
+		"bgcolor_override"	"blank"
 	}
 	
 	"MapImage"
@@ -186,6 +186,36 @@
 		"armedBgColor_override"			"Gray30Mid"
 	}
 	
+	"MapInfoContinue"	//active so I can hit space twice to get through both screens lol
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Continue"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		
+		"font"			"ProductBold10"
+		
+		"fgcolor_override"				"white"
+		"defaultFgColor_override"		"white"
+		"armedFgColor_override"			"accentM1"
+		
+		"bgcolor_override"	"Gray30"
+		"defaultBgColor_override"		"Gray30"
+		"armedBgColor_override"			"Gray30Mid"
+	}
 	
 	
 	
@@ -355,36 +385,5 @@
 			"text"		"#TF_Continue_360"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
-	}
-
-	"MapInfoContinue"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"r40-3"
-		"ypos"			"r16-3"
-		"zpos"			"6"
-		"wide"			"40"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Continue"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
-		"default"		"1"
-		
-		"font"			"ProductBold10"
-		
-		"fgcolor_override"				"white"
-		"defaultFgColor_override"		"white"
-		"armedFgColor_override"			"accentM1"
-		
-		"bgcolor_override"	"Gray30"
-		"defaultBgColor_override"		"Gray30"
-		"armedBgColor_override"			"Gray30Mid"
 	}
 }

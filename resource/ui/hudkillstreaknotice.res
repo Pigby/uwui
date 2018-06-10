@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"RobotoBold10"
+		"font"			"blankfont"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"0"
