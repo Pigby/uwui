@@ -1,7 +1,14 @@
-#base "../resource/ui/base_spacer.res"
+#base "../../resource/customization/spacer.res"
+
 "Resource/HudLayout.res"
 {
 	"Spacer"
+	{
+	}
+	"HPSubSpacer"
+	{
+	}
+	"AmmoSubSpacer"
 	{
 	}
 	
@@ -505,10 +512,10 @@
 		"CornerRadius"		"0"
 		"RightJustify"	 	"1"	// If 1, draw notices from the right
 		
-		"TextFont"			"RobotoMedium10"
+		"TextFont"			"RobotoBold9"
 		
-		"TeamBlue"			"TeamBlueSolid"		//"125 169 197 255"
-		"TeamRed"			"TeamRedSolid"		//"189 55 55 255"
+		"TeamBlue"			"TeamBlueSolid"
+		"TeamRed"			"TeamRedSolid"
 		"IconColor"			"White"
 		"LocalPlayerColor"	"Gray30Solid"
 
@@ -1106,7 +1113,7 @@
 		"fieldName"				"HudStalemate"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"cs-0.5"
 		"ypos"					"65"
 		"ypos_lodef"				"75"
 		"wide"					"320"
@@ -1117,9 +1124,8 @@
 		"fieldName"				"HudTournament"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-125"
+		"xpos"					"cs-0.5"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1132,7 +1138,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1389,12 +1394,10 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"cs-0.5"
+		"ypos"			"c50"
+		"wide"			"224"
+		"tall"			"50"
 		"PaintBackgroundType"	"0"
 	}
 

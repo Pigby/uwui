@@ -1,3 +1,5 @@
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/meters.res"
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
@@ -5,12 +7,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r216"
-		"ypos"			"r57"
-		"xpos_minmode"	"r52"
-		"ypos_minmode"	"r68"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

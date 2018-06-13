@@ -1,46 +1,20 @@
-#base "base_spacer.res"
-#base "base_fontsizes.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/fontsizes.res"
 "Resource/UI/HudAmmoWeapons.res"
 {	
-	"HudWeaponAmmoBG"
+	"Spacer"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"4"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"7"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"bgcolor_override"	"255 0 255 0"
 	}
-	"HudWeaponLowAmmoImage"
+	"HPSubSpacer"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"r-1"
-		"xpos_minmode"	"r-1"
-		"ypos"			"0"
-		"ypos_minmode"	"7"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"visible"			"1"
+		"bgcolor_override"	"0 255 255 0"
+	}
+	"AmmoSubSpacer"
+	{
+		"visible"			"1"
+		"bgcolor_override"	"0 255 255 0"
 	}
 	"AmmoInClip"
 	{
@@ -64,7 +38,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"labelText"		"%Ammo%"
-		"fgcolor"		"Gray30"
+		"fgcolor"		"shadows"
 		
 		"use_proportional_insets"	"1"
 		
@@ -73,8 +47,8 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling" 		"AmmoInClip"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
 	}						
 	"AmmoInReserve"
 	{
@@ -98,7 +72,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor"		"Gray30"
+		"fgcolor"		"shadows"
 		
 		"use_proportional_insets"	"1"
 		
@@ -107,8 +81,8 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling" 		"AmmoInReserve"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
 	}									
 	"AmmoNoClip"
 	{
@@ -132,7 +106,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"labelText"		"%Ammo%"
-		"fgcolor"		"Gray30"
+		"fgcolor"		"shadows"
 		
 		"use_proportional_insets"	"1"
 		
@@ -141,7 +115,85 @@
 		"enabled"		"1"
 		
 		"pin_to_sibling" 		"AmmoNoClip"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-	}									
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ammo_red_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}	
 }

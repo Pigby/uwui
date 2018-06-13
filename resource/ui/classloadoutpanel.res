@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"Gray15Solid"
+		"infocus_bgcolor_override"		"Gray15Solid"
+		"outoffocus_bgcolor_override"	"Gray15Solid"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -106,13 +106,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "200 80 60 0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"ProductBold16"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -161,22 +161,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
-	"TopLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
-		"zpos"			"2"
-		"wide"			"610"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
-	}				
 	
 	"classmodelpanel"
 	{
@@ -290,6 +274,161 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
+
+	"ItemOptionsPanel"
+	{
+		"ControlName"	"CLoadoutParticleSlider"
+		"fieldname"		"ItemOptionsPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"140"
+		"tall"			"75"
+		"autoResize"	"1"
+		"visible"		"0"
+		"bgcolor_override"		"69 64 63 255"
+		"PaintBackgroundType"	"2"
+	}
+	
+	"CharacterLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CharacterLoadoutButton"
+		"labelText"		""
+		"xpos"			"c-25"
+		"ypos"			"c90"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"characterloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_items"
+		}
+	}
+
+	"TauntLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TauntLoadoutButton"
+		"labelText"		""
+		"xpos"			"c2"
+		"ypos"			"c90"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"tauntloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"../hud/ico_reel"
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"TauntHintLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TauntHintLabel"
+		"font"			"ItemFontAttribLarge"
+		"xpos"			"c90"
+		"ypos"			"20"
+		"zpos"			"1"	
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"#TF_ClassLoadoutTauntInputHint"
+		"textAlignment"	"east"
+		"centerwrap"	"1"
+	}
+	
+	"TopLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopLine"
+		"xpos"			"c-305"
+		"ypos"			"40"
+		"zpos"			"2"
+		"wide"			"610"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_dotted_line"
+		"tileImage"		"1"
+		"tileVertically" "0"
+	}
 	
 	"PresetsExplanation"
 	{
@@ -298,8 +437,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"160"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -400,117 +539,7 @@
 			}				
 		}		
 	}
-
-	"ItemOptionsPanel"
-	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"140"
-		"tall"			"75"
-		"autoResize"	"1"
-		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
-	}
-
-	"TauntHintLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntHintLabel"
-		"font"			"ItemFontAttribLarge"
-		"xpos"			"c90"
-		"ypos"			"20"
-		"zpos"			"1"	
-		"wide"			"250"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_ClassLoadoutTauntInputHint"
-		"textAlignment"	"east"
-		"centerwrap"	"1"
-	}
-
-	"CharacterLoadoutButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		""
-		"xpos"			"c-25"
-		"ypos"			"c90"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"characterloadout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}
-	}
-
-	"TauntLoadoutButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
-		"xpos"			"c2"
-		"ypos"			"c90"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"tauntloadout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
-		}
-	}
-
+	
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -518,8 +547,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"160"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"

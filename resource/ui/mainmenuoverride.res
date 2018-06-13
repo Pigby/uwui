@@ -1,3 +1,4 @@
+#base "../../resource/extra/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -1873,7 +1874,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
 		"paintbackground"	"1"
 		
@@ -2006,13 +2006,30 @@
 			"image" "glyph_store"
 		}		
 	}
-
+	
+	"SettingsAnchor"
+	{	
+		"ControlName"	"EditablePanel"
+		"FieldName"		"SettingsAnchor"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"wide"			"100"
+		"tall"			"24"
+		
+		"pin_to_sibling"		"GeneralStoreButton"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
+	}
+	
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"76"
 		"tall"			"24"
@@ -2046,9 +2063,9 @@
 		"defaultBgColor_override"		"Gray30"
 		"armedBgColor_override"			"Gray30Mid"
 		
-		"pin_to_sibling"		"GeneralStoreButton"
+		"pin_to_sibling"		"SettingsAnchor"
 		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"2"
+		"pin_to_sibling_corner"	"0"
 		
 		"image_drawcolor"	"blank"
 		"SubImage"
@@ -2074,7 +2091,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"24"
+		"wide"			"o1"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -2091,7 +2108,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
 		"paintbackground"	"1"
 		
@@ -2105,8 +2121,8 @@
 		"defaultBgColor_override"		"Gray30"
 		"armedBgColor_override"			"Gray30Mid"
 		
-		"pin_to_sibling"		"SettingsButton"
-		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling"		"SettingsAnchor"
+		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 		
 		"image_drawcolor"	"blank"

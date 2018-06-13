@@ -5,7 +5,7 @@
 		//changes distance to center of screen
 		"ypos"		"c90"
 		//changes distance between hp + ammo/uber
-		"wide"		"360"
+		"wide"		"370"
 		//changes how far down the item meters are		
 		"tall"		"60"
 		
@@ -22,7 +22,7 @@
 //only match tall values to HP + ammo heights
 	"HPSubSpacer"
 	{
-		"wide"			"110"
+		"wide"			"120"
 		"tall"			"50"
 		
 		
@@ -37,7 +37,7 @@
 	}
 	"AmmoSubSpacer"
 	{
-		"wide"			"110"
+		"wide"			"120"
 		"tall"			"50"
 		
 		

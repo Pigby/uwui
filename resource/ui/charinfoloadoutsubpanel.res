@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"Gray15Solid"
+		"infocus_bgcolor_override"		"Gray15Solid"
+		"outoffocus_bgcolor_override"	"Gray15Solid"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -628,7 +628,71 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
+	
+	"armory_panel"
+	{
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"400"
+		"zpos"				"500"
+		"visible"			"0"
+	}
 
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"f0"
+		"tall"			"f100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 245"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
@@ -636,11 +700,11 @@
 		"xpos"			"c275"
 		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
@@ -661,8 +725,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"140"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -836,8 +900,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1058,8 +1122,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1280,8 +1344,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1502,8 +1566,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1724,8 +1788,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1946,8 +2010,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -2112,30 +2176,4 @@
 			"fgcolor_override" "200 80 60 255"
 		}
 	}	
-	
-	"armory_panel"
-	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
-	}
-
-	"InspectionPanel"
-	{
-		"fieldName"		"InspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"2000"
-		"wide"			"f0"
-		"tall"			"f100"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
-	}
-
 }

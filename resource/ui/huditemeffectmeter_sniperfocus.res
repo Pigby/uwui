@@ -1,5 +1,5 @@
-#base "base_spacer.res"
-#base "base_meter.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/meters.res"
 "Resource/UI/HudItemEffectMeter_SniperFocus.res"
 {
 	HudItemEffectMeter

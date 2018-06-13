@@ -1,20 +1,18 @@
-#base "base_spacer.res"
-#base "base_fontsizes.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/fontsizes.res"
 "Resource/UI/HudPlayerHealth.res"
 {	
 	"Spacer"
 	{
-		"bgcolor_override"	"255 0 255 0"
+		"bgcolor_override"	"blank"
 	}
 	"HPSubSpacer"
 	{
-		"visible"			"1"
-		"bgcolor_override"	"0 255 255 0"
+		"bgcolor_override"	"blank"
 	}
 	"AmmoSubSpacer"
 	{
-		"visible"			"1"
-		"bgcolor_override"	"0 255 255 0"
+		"bgcolor_override"	"blank"
 	}
 	
 	"HudPlayerHealth"
@@ -54,14 +52,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HPShadow"
 		"labelText"		"%Health%"
-		"fgcolor"		"Gray30"
+		"fgcolor"		"shadows"
 		"zpos"			"6"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"pin_to_sibling" 		"HP"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
 	}
 	
 	"Status Anchor"

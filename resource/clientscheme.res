@@ -8,22 +8,16 @@
 //		borders			- description of all the borders
 //
 //
-#base 	"hudbycolors.res"
-#base 	"hudbyfonts.res"
-#base 	"hudbyborders.res"
-#base	"specborders.res"
-#base 	"product.res"
+#base 	"scheme/uwuicolors.res"
+#base 	"scheme/uwuifonts.res"
+#base 	"scheme/uwuiborders.res"
+#base	"scheme/specborders.res"
+#base 	"scheme/product.res"
+
+#base	"customization/colors.res"
 
 #base 	"scheme/BaseSettings.res"
 #base	"scheme/basescheme.res"
-
-//welcome to borrowed clientschemes lmao
-#base 	"scheme/yahudold.res"
-#base 	"scheme/Colours.res"
-//#base 	"scheme/Borders.res"
-//#base 	"scheme/xHairs.res"
-//#base		"scheme/materialhud.res"
-//#base		"scheme/materialhudBASE.res"
 
 Scheme
 {

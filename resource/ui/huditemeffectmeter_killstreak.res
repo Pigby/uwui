@@ -1,4 +1,5 @@
-#base "base_counter.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/counters.res"
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -21,9 +22,9 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"

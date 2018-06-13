@@ -1,22 +1,28 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/counters.res"
+"Resource/UI/HudItemEffectMeter_Organs.res"
 {
+	"Spacer"
+	{
+	}
+	"HPSubSpacer"
+	{
+	}
+	"AmmoSubSpacer"
+	{
+	}
+	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		
+		"bgcolor_override"		"0 255 0 0"
 	}
 	
 	"ItemEffectMeterBG"
@@ -43,24 +49,29 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"xpos_minmode"			"15"
-		"ypos"					"27"
-		"ypos_minmode"			"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"32"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		
+		"labelText"				"Organs"
+		
+		"textinsetx"			"10"
+		"auto_wide_tocontents"		"1"
+		"use_proportional_insets"	"1"
+		"proportional_to_parent"	"1"
+		
+		"pin_to_sibling"		"AmmoSubSpacer"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"ItemEffectMeter"
@@ -89,20 +100,18 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"xpos_minmode"			"12"
-		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		
+		"proportional_to_parent"	"1"
+		
+		"pin_to_sibling"		"ItemEffectMeterLabel"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"3"
 	}	
 }

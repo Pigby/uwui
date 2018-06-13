@@ -1,4 +1,4 @@
-#base "base_spacer.res"
+#base "../../resource/customization/spacer.res"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

@@ -1,6 +1,6 @@
-#base "base_spacer.res"
-#base "base_meter.res"
-#base "base_fontsizes.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/fontsizes.res"
+#base "../../resource/customization/meters.res"
 "Resource/UI/HudMedicCharge.res"
 {	
 	"Spacer"
