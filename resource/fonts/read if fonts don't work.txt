@@ -1,1 +1,0 @@
-if the fonts in my hud don't work just select all of these > right click > install.
