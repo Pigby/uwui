@@ -15,9 +15,8 @@
 //			(depending on how large your selected font is)
 //		
 //	tall:	
-//		tall 	= 198
-//		ypos	= cs-0.5+80
-//
+//		This value changes how far down the charge bars, demoman sticky counter, and engineer metal count are.
+//		It works relative to the health and ammo, and setting it to 0 will place them slightly above those elements.
 //
 //	Currently, defaults are:
 //		"ypos"		"c90"
