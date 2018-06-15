@@ -30,12 +30,9 @@
 {	
 	"Spacer" //NEW AGE HUD TECHNOLOGY
 	{	
-		//changes distance to center of screen
-		"ypos"		"c90"
-		//changes distance between hp + ammo/uber
-		"wide"		"380"
-		//changes how far down the item meters are		
-		"tall"		"60"
+		"ypos"					"c90"
+		"wide"					"380"
+		"tall"					"60"
 
 //XXXXXXX avoid editing these please XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 		"ControlName"			"EditablePanel"
@@ -46,51 +43,26 @@
 //only match tall values to HP + ammo heights
 	"HPSubSpacer"
 	{
-		"wide"			"130"
-		"tall"			"50"
+		"tall"					"50"
 		
-		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HPSubSpacer"
-		"enabled"		"1"
-		
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HPSubSpacer"
+		"wide"					"130"
+		"enabled"				"1"
 		"pin_to_sibling"		"Spacer"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
 	}
 	"AmmoSubSpacer"
 	{
-		"wide"			"130"
-		"tall"			"50"
+		"tall"					"50"
 		
-		
-		"ControlName"	"EditablePanel"
-		"fieldName"		"AmmoSubSpacer"
-		"enabled"		"1"
-		
+		"ControlName"			"EditablePanel"
+		"fieldName"				"AmmoSubSpacer"
+		"wide"					"130"
+		"enabled"				"1"
 		"pin_to_sibling"		"Spacer"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-	}
-	"TopSpacer"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"TopSpacer"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"0"
-		"wide"					"f0"
-		"tall"					"35"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"alpha"					"255"
-		"bgcolor_override"		"255 0 255 0"
-		"PaintBackgroundType"	"0"
-		
-		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"6"
-		"pin_to_sibling_corner"	"4"
 	}
 }

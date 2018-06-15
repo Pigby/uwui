@@ -70,45 +70,15 @@
 		}
 	}
 	
-	"TopBG"
+	"MainBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"TopBG"
+		"fieldName"		"MainBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-1000"
 		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"bgcolor_override"	"Gray15Solid"
-	}
-	
-	"BottomBG1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BottomBG1"
-		"xpos"			"0"
-		"ypos"			"r60"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"bgcolor_override"	"Gray15Solid"
-	}
-	
-	"BottomBG2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BottomBG2"
-		"xpos"			"0"
-		"ypos"			"r18"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		

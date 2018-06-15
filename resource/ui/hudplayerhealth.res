@@ -26,8 +26,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthBonusPosAdj"			"35"
+		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 	
@@ -40,6 +40,12 @@
 		"zpos"			"7"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
 		
 		"proportionaltoparent"	"1"
 		
@@ -56,6 +62,12 @@
 		"zpos"			"6"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
 		
 		"pin_to_sibling" 		"HP"
 		"pin_corner_to_sibling" "3"

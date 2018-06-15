@@ -1,5 +1,5 @@
-#base "base_spacer.res"
-#base "base_fontsizes.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/fontsizes.res"
 "Resource/UI/HudAccountPanel.res"
 {	
 	"Spacer"

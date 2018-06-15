@@ -1,17 +1,21 @@
-#base "HudItemEffectMeter.res"
+#base "../../resource/customization/spacer.res"
+#base "../../resource/customization/meters.res"
+
 "Resource/UI/HudRocketPack.res"
 {
+	"Spacer"
+	{
+	}
+	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
-		"xpos_minmode"	"r77"	[$WIN32]
-		"ypos"			"r105"	[$WIN32]
-		"ypos_minmode"	"r120"	[$WIN32]
-		"wide"			"94"
-		"tall"			"45"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 
 	"ItemEffectMeterBG"
@@ -19,14 +23,11 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"4"
-		"xpos_minmode"	"28"
 		"ypos"			"0"
-		"ypos_minmode"	"28"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"1"
-		"visible_minmode""0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"				"../hud/ammo_blue_bg"
@@ -40,14 +41,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"2"
-		"ypos"			"-2"
-		"ypos_minmode"	"15"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
-		"visible_minmode""1"
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
 		"scaleImage"	"1"	
@@ -82,14 +81,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
-		"xpos"			"26"
-		"xpos_minmode"	"26"
-		"ypos"			"28"
-		"ypos_minmode"	"40"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"22"
-		"wide_minmode"	"22"
-		"tall"			"8"				
+		"wide"			"40"
+		"tall"			"3"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -98,6 +94,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
+		
+		"pin_to_sibling"		"Spacer"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"6"
+		
 	}
 
 	"ItemEffectMeter2"
@@ -105,13 +106,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
-		"xpos"			"52"
-		"xpos_minmode"	"52"
-		"ypos"			"28"
-		"ypos_minmode"	"40"
+		"xpos"			"1"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"8"				
+		"wide"			"40"
+		"tall"			"3"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -120,5 +119,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
+		
+		"bgcolor_override"	"Gray30"
+		
+		"pin_to_sibling"		"Spacer"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"6"
 	}
 }

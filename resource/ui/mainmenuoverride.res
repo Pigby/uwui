@@ -1294,7 +1294,7 @@
 			"enabled"		"1"
 			"fgcolor_override"	"white"
 			
-			"textinsetx"	"5"
+			"textinsetx"				"7"
 			"use_proportional_insets"	"1"
 		}
 

@@ -1,23 +1,11 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
-#base 	"scheme/uwuicolors.res"
-#base 	"scheme/uwuifonts.res"
-#base 	"scheme/uwuiborders.res"
-#base	"scheme/specborders.res"
-#base 	"scheme/product.res"
+#base 	"scheme/uwuicolors.res"		//the other colors lol
+#base 	"scheme/uwuifonts.res"		//idk
+#base 	"scheme/uwuiborders.res"	//actual borders
+#base	"scheme/specborders.res"	//so i remember to delete these things
 
-#base	"customization/colors.res"
+#base	"customization/colors.res"	//file that holds the color customizations
 
-#base 	"scheme/BaseSettings.res"
-#base	"scheme/basescheme.res"
+#base	"scheme/basescheme.res"	//default clientscheme loaded last lol
 
 Scheme
 {
@@ -93,22 +81,6 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
-		{
-			"font" "resource/fonts/MavenPro-Regular.ttf"
-			"name" "Maven Pro"
-		}
-		"8"
-		{
-		
-			"font" "resource/fonts/MavenPro-Black.ttf"
-			"name" "Maven Pro Black"
-		}
-		"9"
-		{
-			"font" "resource/fonts/MavenPro-Bold.ttf"
-			"name" "Maven Pro Bold"
-		}
 		"10"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
@@ -179,100 +151,15 @@ Scheme
 			"font" "resource/fonts/Roboto-Black.ttf"
 			"name" "Roboto Black"
 		}
-		"24" // Tournament HUD block
+		"24"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
-		}
-		"25" // Fog's xHairs
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
-		}
-		"26" // Thin Cross
-		{
-			"font" "resource/fonts/Symbol.ttf"
-			"name" "Symbol"
-		}
-		"27" // Konr Wings
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}
-		"28"
-        {
-            "font" "resource/fonts/crosshairs.ttf"
-            "name" "Crosshairs Regular"
-        }
-		"29"
-		{
-			"font" "resource/fonts/tf2cross.ttf"
-			"name" "tf2cross"
-		}
-		"30"
-		{
-			"font" "resource/fonts/BCrosshairs.ttf"
-			"name" "broeselhud Crosshairs"
-		}
-		"31" 
-		{
-			"font" "resource/fonts/crosshair.ttf"
-			"name" "crosshair" 
-		}
-		"32" //circles
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}
-		"33" //For Hexagons
-		{
-			"font" "resource/fonts/HONEYCOMBED_BOLD.ttf"
-			"name" "HONEYCOMBED"
-	    }
-		"34" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
 		}
 		"35" 
 		{
 			"font" "resource/fonts/AdobeBlank.ttf"
 			"name" "Adobe Blank"
-		}
-		"36"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"37"
-		{
-			"font" "resource/fonts/Entypo.otf"
-			"name" "Entypo"
-		}
-		"38" //class icons
-		{
-			"font" "resource/fonts/HudasIscariote2.otf"
-			"name" "Hudas Isocariote"
-		}
-		"39" 
-		{
-			"font" "resource/fonts/heydings_icons.ttf"
-			"name" "Heydings Icons"
-		}
-		"41"
-		{
-			"font" "resource/fonts/sosa-regular-webfont.ttf"
-			"name" "Sosa Regular"
-		}
-		"42" // Various Symbols
-		{
-			"font" "resource/fonts/modernpics.otf"
-			"name" "Modern Pictograms"
-		}
-		"42"
-		{
-			"font" "resource/fonts/Roboto-Thin-Numbers.ttf"
-			"name" "Roboto Thin Numbers"
 		}
 		"43"
 		{
@@ -286,7 +173,7 @@ Scheme
 		}
 		"45"
 			"font"	"resource/fonts/ProductSans-Bold.ttf"
-			"name"	"Product Bold"
+			"name"	"Product Sans Bold"
 		}
 	}
 }

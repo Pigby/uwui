@@ -117,10 +117,10 @@
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"480"
-		"tall"			"25"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 
@@ -140,13 +140,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"white"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
+		"font"	"HudFontSmallestBold"
 		"xpos"		"c+205"
 		"ypos"		"15"
 		"zpos"		"2"
@@ -160,10 +161,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"white"
-		"bgcolor_override"	"Gray30Solid"
-		"paintbackgroundtype" "2"
-		"font"		"ProductBold10"
+		"fgcolor_override"		"white"
+		"bgcolor_override"		"Gray30Solid"
+		"paintbackgroundtype"	"2"
+		
 	}
 	
 	"TopLine"

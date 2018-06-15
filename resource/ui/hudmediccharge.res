@@ -34,13 +34,19 @@
 		"fieldName"		"ChargeLabel"
 		"zpos"			"2"
 		"autoResize"	"1"
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"			//"#TF_Ubercharge"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
 		
 		"fgcolor"		"default"
 		
@@ -55,13 +61,19 @@
 		"fieldName"		"IndividualChargesLabel"
 		"zpos"			"2"
 		"autoResize"	"1"
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"		//"#TF_IndividualUbercharges"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
 		
 		"fgcolor"		"default"
 		

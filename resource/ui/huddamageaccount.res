@@ -1,4 +1,5 @@
 #base "../../resource/customization/spacer.res"
+#base "../../resource/customization/fontsizes.res"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -18,8 +19,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-		"xpos"				"0"				//c-206
-		"ypos"				"0"				//r151
 		"zpos"				"2"
 		"wide"				"40"
 		"tall"				"20"
@@ -28,7 +27,7 @@
 		"labelText"			"%metal%"
 		"delta_lifetime"	"10.0"
 		"textAlignment"		"center"
-		"fgcolor"			"white"	//"Damage Numbers"
+		"fgcolor"			"white"
 		"font"				"BoldNumbers16"
 		
 		"pin_to_sibling"		"Spacer"
@@ -53,7 +52,7 @@
 		"font"	 			"BoldNumbers16"	
 		
 		"pin_to_sibling" 		"DamageAccountValue"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
 	}
 }

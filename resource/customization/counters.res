@@ -14,26 +14,28 @@
 		"tall"					"16"
 		"wide"					"32"
 		
-//XXXXXXX avoid editing these please XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+		// NO TOUCHY PLS ==============
 		"xpos"					"0"
 		"ypos"					"0"
 		"allcaps"				"0"
 		"textAlignment"			"center"
 		"paintbackgroundtype"	"0"
 		"bgcolor_override"		"Gray30"
+		// NO TOUCHY PLS ==============
 	}
 	"ItemEffectMeterCount"
 	{
 		"font"					"ProductBold14"
 		"tall"					"16"
 		
-//XXXXXXX avoid editing these please XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+		// NO TOUCHY PLS ==============
 		"textinsetx"			"5"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
 		"use_proportional_insets"	"1"
 		"paintbackgroundtype"	"0"
 		"bgcolor_override"		"Gray30"
+		// NO TOUCHY PLS ==============
 	}
 	HudItemEffectMeter
 	{

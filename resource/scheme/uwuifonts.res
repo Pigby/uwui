@@ -1,16 +1,12 @@
 Scheme
 {
-	//
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"				//"Maven Pro Bold"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"antialias" 	"1"
 			}
@@ -254,7 +250,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		 "Roboto Regular"		//"Maven Pro Bold"
+				"name"		 "Roboto Regular"
 				"tall" 		 "12"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -275,7 +271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Roboto"		//"Maven Pro"
+				"name"		 "Roboto"
 				"tall" 		 "10"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -285,7 +281,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"30"
 				"tall_lodef"	"80"
 				"additive"	"0"
@@ -293,7 +289,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"42"
 				"tall_hidef"	"120"
 				"additive"	"0"
@@ -301,21 +297,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"46"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"50"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"70"
 				"additive"	"0"
 				"antialias" "1"
@@ -375,7 +371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"					//"Maven Pro Bold"
+				"name"		"Roboto Medium"	
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -385,7 +381,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -395,7 +391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"					//"Maven Pro Bold"
+				"name"		"Roboto Medium"	
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -405,7 +401,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"					//"Maven Pro Bold"
+				"name"		"Roboto Medium"	
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -415,7 +411,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -425,7 +421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -435,7 +431,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -445,7 +441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -455,7 +451,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"					//"Maven Pro"
+				"name"		"Product Sans Bold"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -465,7 +461,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -475,7 +471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -485,7 +481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -495,7 +491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"					//"Maven Pro"
+				"name"		"Product Sans Bold"			
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -505,7 +501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -515,7 +511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -525,7 +521,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -535,7 +531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -545,7 +541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -555,7 +551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -565,7 +561,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -575,7 +571,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -617,7 +613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -627,7 +623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -685,7 +681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Medium"		//"Maven Pro"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -695,7 +691,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro"
+				"name"		"Roboto Bold"
 				"tall"		"14"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -706,7 +702,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Roboto Medium"		//"Maven Pro"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -715,7 +711,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Roboto Medium"		//"Maven Pro"
+				"name"		"Roboto Medium"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -724,7 +720,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Roboto Medium"		//"Maven Pro"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -898,7 +894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -908,7 +904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -919,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -943,7 +939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Roboto"		//"Maven Pro"
+				"name"			"Roboto"
 				"tall"			"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -953,7 +949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Roboto Bold"		//"Maven Pro Bold"
+				"name"			"Roboto Bold"
 				"tall"			"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -963,7 +959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -973,7 +969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Roboto"		//"Maven Pro"
+				"name"			"Roboto"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -984,7 +980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -997,7 +993,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1010,7 +1006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1022,7 +1018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1135,7 +1131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1146,7 +1142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1157,7 +1153,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -1210,7 +1206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1308,7 +1304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1321,7 +1317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1333,7 +1329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1478,7 +1474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" "1"
@@ -1488,7 +1484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1499,7 +1495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"		//"Maven Pro"
+				"name"		"Roboto"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1557,7 +1553,7 @@ Scheme
 		"1"
 			{
 				
-				"name"		 "Roboto Bold" 				//"Maven Pro Bold"
+				"name"		 "Roboto Bold" 
 				"tall" 		 "9"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1567,7 +1563,7 @@ Scheme
 		{
 		"1"
 			{
-				"name"		 "Roboto Bold" 				//"Maven Pro Bold"
+				"name"		 "Roboto Bold" 
 				"tall" 		 "10"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1577,7 +1573,7 @@ Scheme
 		{
 		"1"
 			{
-				"name"		 "Roboto Bold" 				//"Maven Pro Bold"
+				"name"		 "Roboto Bold" 
 				"tall" 		 "12"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1587,7 +1583,7 @@ Scheme
 		{
 		"1"
 			{
-				"name"		 "Roboto" 					//"Maven Pro Bold"
+				"name"		 "Roboto" 	
 				"tall" 		 "8"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1607,7 +1603,7 @@ Scheme
 		{
 		"1"
 			{
-				"name"		 "Roboto" 					//"Maven Pro Bold"
+				"name"		 "Roboto" 	
 				"tall" 		 "9"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1617,7 +1613,7 @@ Scheme
 		{
 		"1"
 			{
-				"name"		 "Roboto" 					//"Maven Pro Bold"
+				"name"		 "Roboto" 	
 				"tall" 		 "10"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -1627,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto" 					//"Maven Pro Bold"
+				"name"		"Roboto" 	
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -1637,7 +1633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto" 					//"Maven Pro Bold"
+				"name"		"Roboto" 	
 				"tall"		"9"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1932,7 +1928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"11"
 				"additive"	"1"
 				"antialias" "1"
@@ -1942,7 +1938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"additive"	"1"
 				"antialias" "1"
@@ -1952,7 +1948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"18"
 				"additive"	"1"
 				"antialias" "1"
@@ -1962,7 +1958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"additive"	"1"
 				"antialias" "1"
@@ -1972,7 +1968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"		//"Maven Pro Bold"
+				"name"		"Roboto Bold"
 				"tall"		"18"
 				"additive"	"1"
 				"antialias" "1"
@@ -2049,1909 +2045,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-	// hud xhairs ---------------------------------------------------------------------------------------------
-	
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"xHairEDIT"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"21"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"xHairCircleOutline"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-		"Crosshairs8"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"8"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline8"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"8"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs10"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"10"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline10"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"10"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs12"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"12"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline12"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"12"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs14"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"14"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline14"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"14"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs16"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs18"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline18"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs20"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs22"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs24"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline24"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs26"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline26"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs28"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs30"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs32"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline32"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs34"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"CrosshairsOutline34"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs36"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs38"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs40"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-	// bwhud crosshairs ---------------------------------------------------------------------------------------
-		
-		"Crosshairbw8"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw10"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw12"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw14"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw15"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw16"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw18"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA8"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA9"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA10"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA12"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA14"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairAA15"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairAA16"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA17"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA18"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA19"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA20"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA21"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"21"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA22"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA23"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"23"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA24"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA25"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"25"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA26"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA27"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"27"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA28"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA29"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"29"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA30"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA31"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"31"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA32"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairOLSmall"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-        "CrosshairAA"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA20"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairAA24"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairOL"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-        "CrosshairAABig"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairOLBig"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		"Crosshairbw8"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw10"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw12"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw14"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw15"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw16"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"Crosshairbw18"
-        {
-			"1"
-			{
-				"name"		"crosshair"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck8"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck9"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck10"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck12"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck14"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairKnuck15"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        "CrosshairKnuck16"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck17"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck18"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck19"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck20"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck21"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"21"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck22"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck23"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"23"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck24"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck25"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"25"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck26"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck27"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"27"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck28"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck29"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"29"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck30"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck31"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"31"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck32"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck33"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"33"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck34"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"34"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck35"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"35"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck36"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck37"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"37"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck38"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"38"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck39"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"39"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck40"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"40"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck41"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"41"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck42"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"42"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck43"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"43"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck44"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"44"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck45"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"45"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck46"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"46"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck47"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"47"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck48"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"48"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck49"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"49"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck50"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"50"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck51"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"51"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"CrosshairKnuck52"
-        {
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"52"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-	// symbols ------------------------------------------------------------------------------------------------
-		
-		"Symbol16"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"Symbol24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"SymbolOutline24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		"Symbol32"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"Symbol40"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-
-	// konr wings ---------------------------------------------------------------------------------------------
-
-		"KonrWings16"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWingsOutline24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		"KonrWings32"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings40"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-	
-	// rayshud font placeholders ------------------------------------------------------------------------------
-		
-		"Cerbetica7"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "6"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica8"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica9"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "8"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica12"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica14"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica16"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica20"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "18"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica22"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica24"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaOutline24"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
-		"Cerbetica26"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica28"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "26"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica32"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "30"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica40"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "38"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica48"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "46"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica52"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "50"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica54"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "52"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica55"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "53"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica56"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "54"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica60"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "58"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Cerbetica72"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "70"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold12"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold13"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "11"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold14"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold15"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "13"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold16"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold17"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "15"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold20"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "17"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold24"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBoldOutline24"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
-		"CerbeticaBoldOutline16"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
-		"CerbeticaBoldOutline32"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Bold"
-				"tall" 		 "32"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
-		"CerbeticaBold28"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "28"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold32"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "32"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold36"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "36"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold42"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "42"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold44"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "44"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold46"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "46"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold48"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "48"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold56"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "56"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBoldMedic56"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "56"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold64"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "64"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold72"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "72"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold124"
-		{
-			"1"
-			{
-				"name"		 "Maven Pro Black"
-				"tall" 		 "124"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
 		
 		"TF2ComboBox"
 		{
@@ -3962,1554 +2055,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-		
-		
-		"xHairCirclePulse"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"xHairtiny"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"8"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"HudCrossHair"
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-	
-	// kbn fonts ----------------------------------------------------------------------------------------------
-		
-		"kbnRegular11"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Regular"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnRegular12"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Regular"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium8"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"8"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium9"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"9"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium9OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"9"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"0 0 0 150"
-			}
-		}
-		"kbnMedium10"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium11"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium12"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMediumBlur16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnMedium18"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"18"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium21"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"21"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium30"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium36"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"36"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnMedium50"
-		{
-			"1"
-			{
-			"name"		"Maven Pro"
-			"tall"		"50"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold8"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"8"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold9"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"9"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold10"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold11"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold12"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold16Numbers"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold Numbers"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur16Numbers"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold Numbers"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold16OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"kbnBold18"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"18"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"0"
-			}
-		}
-		"kbnBold18Numbers"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold Numbers"
-			"tall"		"18"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"0"
-			}
-		}
-		"kbnBold21"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"21"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold22"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"22"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBold24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold26"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"26"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur26"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"26"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold28"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"28"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur28"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"28"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold30"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur30"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold32"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"32"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur32"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"32"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBold36"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"36"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBoldBlur36"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"36"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack8"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"8"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur8"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"8"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack9"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"9"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur9"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"9"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack10"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur10"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"10"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack11"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur11"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack11OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"11"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"0 0 0 255"
-			}
-		}
-		"kbnBlack12"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur12"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack12OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"12"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"0"
-			"outline"	"1"
-			}
-		}
-		"kbnBlack14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur14"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"14"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur16"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"16"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack18"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"18"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur18"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"18"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack20"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"20"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur20"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"20"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack21"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"21"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur21"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"21"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack22"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"22"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur22"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"22"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlackBlur24"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack24OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"24"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"kbnBlack26"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"26"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlack30"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur30"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack32"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"32"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur32"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"32"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack34"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"34"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur34"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"34"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack36"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"36"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur36"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"36"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack40"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"40"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur40"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"40"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack44"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"44"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlackBlur44"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"44"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"blur"		"1"
-			}
-		}
-		"kbnBlack48"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"48"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-		"kbnBlack56"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Black"
-			"tall"		"56"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			}
-		}
-	
-	// Ubuntu Fonts -------------------------------------------------------------------------------------------
-		
-		"UbuntuRegular8"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"8"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular9"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"9"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular10"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"10"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular12"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"12"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular14"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"14"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular16"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"16"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular18"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"18"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular20"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"20"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular22"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"22"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular24"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"24"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular26"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"26"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular30"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"30"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular32"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"32"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular36"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"36"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular48"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"48"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuRegular56"
-		{
-			"1"
-			{
-			"name"		"Ubuntu"
-			"tall"		"56"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium8"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"8"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium9"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"9"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium10"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"10"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium12"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"12"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium16"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"16"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium20"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"20"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium24"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"24"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium30"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"30"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium32"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"32"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium36"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"36"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium48"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"48"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMedium56"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Medium"
-			"tall"		"56"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold8"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"8"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold9"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"9"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold10"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"10"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold12"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"12"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold16"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"16"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold20"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"20"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold24"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"24"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold30"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"30"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold32"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"32"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold36"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"36"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold48"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"48"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuBold56"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Bold"
-			"tall"		"56"
-			"additive"	"0"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed8"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"8"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed9"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"9"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed10"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"10"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed12"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"12"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed16"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"16"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed24"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"24"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed32"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"32"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed48"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"48"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuCondensed56"
-		{
-			"1"
-			{
-			"name"		"Ubuntu Condensed"
-			"tall"		"56"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMono8"
-		{
-			"1"
-			{
-			"name"		"UbuntuMono-R"
-			"tall"		"8"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMono9"
-		{
-			"1"
-			{
-			"name"		"UbuntuMono-R"
-			"tall"		"9"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMono10"
-		{
-			"1"
-			{
-			"name"		"UbuntuMono-R"
-			"tall"		"10"
-			"antialias"	"1"
-			}
-		}
-		"UbuntuMono12"
-		{
-			"1"
-			{
-			"name"		"UbuntuMono-R"
-			"tall"		"12"
-			"antialias"	"1"
 			}
 		}
 	
@@ -6015,328 +2560,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-	
-	// hex font -----------------------------------------------------------------------------------------------
 		
-		"hex8"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"8"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex9"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"9"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex10"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"10"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex12"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"12"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex14"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"14"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex16"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"16"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex18"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"18"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex20"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"20"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex21"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"21"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex22"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"22"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex23"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"23"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex24"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"24"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex25"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"25"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex26"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"26"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex28"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"28"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex30"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"30"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex32"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"32"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex34"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"34"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex36"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"36"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex38"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"38"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex40"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"40"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex41"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"41"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex42"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"42"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex44"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"44"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex46"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"46"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex47"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"47"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex48"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"48"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex50"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"50"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
-		"hex52"
-		{
-			"1"
-			{
-				"name"		"HONEYCOMBED"
-				"tall"		"52"
-				"antialias"	"1"
-				"additive"	 "0"
-				"weight"	"0"	
-			}
-		}
 		"sosa8"
 		{
 			"1"
@@ -9833,7 +6057,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"BoldNumbers23Shadow"
+		"BoldNumbers23ds"
 		{
 			"1"
 			{
@@ -9864,6 +6088,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"BoldNumbers18ds"
+		{
+			"1"
+			{
+				"name"			"BoldNumbers"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"BoldNumbers16"
 		{
 			"1"
@@ -9872,6 +6107,17 @@ Scheme
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		"BoldNumbers16ds"
+		{
+			"1"
+			{
+				"name"			"BoldNumbers"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"BoldNumbers14"
@@ -13162,6 +9408,7 @@ Scheme
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
+				"weight"	"100"
 			}
 		}
 		"ProductBold9"
@@ -13172,6 +9419,7 @@ Scheme
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
+				"weight"	"100"
 			}
 		}
 		"ProductBold10"
@@ -13182,6 +9430,7 @@ Scheme
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
+				"weight"	"500"
 			}
 		}
 		"ProductBold12"

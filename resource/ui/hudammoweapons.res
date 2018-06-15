@@ -4,17 +4,12 @@
 {	
 	"Spacer"
 	{
-		"bgcolor_override"	"255 0 255 0"
 	}
 	"HPSubSpacer"
 	{
-		"visible"			"1"
-		"bgcolor_override"	"0 255 255 0"
 	}
 	"AmmoSubSpacer"
 	{
-		"visible"			"1"
-		"bgcolor_override"	"0 255 255 0"
 	}
 	"AmmoInClip"
 	{
@@ -22,6 +17,13 @@
 		"fieldName"		"AmmoInClip"
 		"labelText"		"%Ammo%"
 		"fgcolor"		"default"
+		
+		// NO TOUCHY PLS ==============
+		"textinsetx"	"66"
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"east"
+		// NO TOUCHY PLS ==============
 		
 		"use_proportional_insets"	"1"
 		
@@ -40,6 +42,13 @@
 		"labelText"		"%Ammo%"
 		"fgcolor"		"shadows"
 		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textinsetx"	"66"
+		"textAlignment"	"east"
+		// NO TOUCHY PLS ==============
+		
 		"use_proportional_insets"	"1"
 		
 		"zpos"			"4"
@@ -56,6 +65,13 @@
 		"fieldName"		"AmmoInReserve"
 		"labelText"		"%AmmoInReserve%"
 		"fgcolor"		"accentP1"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textinsetx"	"66"
+		"textAlignment"	"west"
+		// NO TOUCHY PLS ==============
 		
 		"use_proportional_insets"	"1"
 		
@@ -74,6 +90,13 @@
 		"labelText"		"%AmmoInReserve%"
 		"fgcolor"		"shadows"
 		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textinsetx"	"66"
+		"textAlignment"	"west"
+		// NO TOUCHY PLS ==============
+		
 		"use_proportional_insets"	"1"
 		
 		"zpos"			"7"
@@ -91,6 +114,12 @@
 		"labelText"		"%Ammo%"
 		"fgcolor"		"default"
 		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
+		
 		"use_proportional_insets"	"1"
 		
 		"zpos"			"7"
@@ -107,6 +136,12 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"labelText"		"%Ammo%"
 		"fgcolor"		"shadows"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
 		
 		"use_proportional_insets"	"1"
 		

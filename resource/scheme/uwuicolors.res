@@ -15,8 +15,6 @@ Scheme
 		
 	// I love using gray --------------------------------------------------------------------------------------
 		
-		"shadows"											"28 31 34 120"
-		
 		"Gray15Light"										"28 31 34 60"
 		"Gray15"											"28 31 34 120"
 		"Gray15mid"											"28 31 34 210"
@@ -100,7 +98,7 @@ Scheme
 		"TeamBluSolid"										"88 133 162 255"
 		"TeamBlue"											"88 133 162 255"
 		"TeamBlueSolid"										"88 133 162 255"
-		"RedSolid"											"192 28 0 255"
+		"RedSolid"											"255 255 255 255"		//"192 28 0 255"
 		"BlueSolid"											"0 28 162 255"
 		
 		"HUDDeathWarning"									"255 0 0 255"
@@ -366,7 +364,7 @@ Scheme
 		Button.DepressedBgColor								"accentM1"
 		
 		ReplayBrowser.BgColor								"GrayBGDark"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"blank"
 		ReplayBrowser.Button.ArmedBgColor					"ButtonArmed"
 		ReplayBrowser.Button.DepressedBgColor				"ButtonBG"
 		ReplayBrowser.CollectionTitle.FgColor				"GrayText"
@@ -412,10 +410,8 @@ Scheme
 
 		Frame.BgColor										"TransparentBlack"
 		Frame.OutOfFocusBgColor								"TransparentBlack"
-		Frame.FocusTransitionEffectTime						"0.0"	[$WIN32]		// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime							"0.0"	[$WIN32]		// time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime						"0.15"	[$X360]			// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime							"0.15"	[$X360]			// time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime						"0.0"		// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime							"0.0"		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange									"0"
 		FrameGrip.Color1									"Blank"
 		FrameGrip.Color2									"Blank"
@@ -446,14 +442,14 @@ Scheme
 		ListPanel.TextColor									"White"
 		ListPanel.BgColor									"TransparentBlack"
 		ListPanel.SelectedTextColor							"Black"
-		ListPanel.SelectedBgColor							"Red"
-		ListPanel.SelectedOutOfFocusBgColor					"Red"
+		ListPanel.SelectedBgColor							"accentM1"
+		ListPanel.SelectedOutOfFocusBgColor					"accentM1"
 		ListPanel.EmptyListInfoTextColor					"White"
 
-		Menu.TextColor										"TanLight"
+		Menu.TextColor										"white"
 		Menu.BgColor										"TransparentBlack"
-		Menu.ArmedTextColor									"TanDark"
-		Menu.ArmedBgColor									"TanLight"
+		Menu.ArmedTextColor									"accentM1"
+		Menu.ArmedBgColor									"white"
 		Menu.TextInset										"6"
 
 		Chat.TypingText										"White"

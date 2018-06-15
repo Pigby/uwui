@@ -99,15 +99,15 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"50"
-			"tall"			"40"
+			"wide"			"56"
+			"tall"			"41"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"Gray15Solid"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_xpos"	"2"
+			"model_xpos"	"3"
 			"model_ypos"	"5"
 			"model_wide"	"50"
 			"model_tall"	"35"
@@ -115,8 +115,8 @@
 			"text_center"	"1"
 			"name_only"		"1"
 			
-			"inset_eq_x"	"2"
-			"inset_eq_y"	"2"
+			"inset_eq_x"	"1"
+			"inset_eq_y"	"1"
 			
 			"itemmodelpanel"
 			{
@@ -171,6 +171,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 0"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -185,7 +186,7 @@
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 	
@@ -204,37 +205,6 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}
-
-	"ShowRarityComboBox"
-	{
-		"ControlName"		"ComboBox"
-		"fieldName"			"ShowRarityComboBox"
-		"Font"				"ProductBold10"
-		"wrap"				"0"
-		"xpos"				"c-85"
-		"ypos"				"37"
-		"zpos"				"1"
-		"wide"				"205"
-		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"textHidden"		"0"
-		"editable"			"0"
-		"maxchars"			"-1"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
-		"default"			"0"
-		
-		"fgcolor_override"	"white"
-		"bgcolor_override"	"Gray30Solid"
-		"disabledFgColor_override" "255 255 255 120"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
 	"ShowBaseItemsCheckbox"
@@ -261,7 +231,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"ProductBold10"
+		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+137"
@@ -279,7 +249,7 @@
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
-		"fieldName"		"NameFilterTextEntry"
+		"fieldName"			"NameFilterTextEntry"
 		"xpos"				"c+137"
 		"ypos"				"15"
 		"wide"				"90"
@@ -294,19 +264,20 @@
 		"unicode"			"1"
 		"fgcolor_override"	"white"
 		"bgcolor_override"	"Gray30Solid"
-		"paintbackgroundtype" "2"
-		"font"		"ProductBold10"
+		"font"				"HudFontSmallestBold"
+		"paintbackgroundtype" "0"
 	}
 	
-	"SortByComboBox"
+	"ShowRarityComboBox"
 	{
 		"ControlName"		"ComboBox"
-		"fieldName"			"SortByComboBox"
+		"fieldName"			"ShowRarityComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c137"
-		"ypos"				"37"
+		"wrap"				"0"
+		"xpos"				"c-85"
+		"ypos"				"36"
 		"zpos"				"1"
-		"wide"				"150"
+		"wide"				"205"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -319,13 +290,43 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"fgcolor_override"					"white"
+		"bgcolor_override"					"Gray30Solid"
+		"disabledFgColor_override"			"255 255 255 120"
+		"disabledBgColor_override"			"0 0 0 0"
+		"selectionColor_override"			"0 0 0 0"
+		"selectionTextColor_override"		"white"
+		"defaultSelectionBG2Color_override"	"0 0 0 0"
+	}
+	
+	"SortByComboBox"
+	{
+		"ControlName"		"ComboBox"
+		"fieldName"			"SortByComboBox"
+		"Font"				"HudFontSmallestBold" //HARDCODED???
+		"xpos"				"c137"
+		"ypos"				"36"
+		"zpos"				"1"
+		"wide"				"150"
+		"tall"				"15" //HARDCODED???
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textHidden"		"0"
+		"editable"			"0"
+		"maxchars"			"-1"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
+		"default"			"0"
+		
+		"fgcolor_override"					"white"
+		"bgcolor_override"					"Gray30Solid"
+		"disabledFgColor_override"			"255 255 255 120"
+		"disabledBgColor_override"			"0 0 0 0"
+		"selectionColor_override"			"0 0 0 0"
+		"selectionTextColor_override"		"white"
+		"defaultSelectionBG2Color_override"	"0 0 0 0"
 	}	
 
 	

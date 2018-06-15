@@ -22,5 +22,8 @@ Scheme
 		// negative color									(low hp + low ammo)
 		"accentN1"											"255 90 160 255"
 		"accentN2"											"255 70 70 255"
+		
+		// color of drop shadows
+		"shadows"											"28 31 34 120"
 	}
 }

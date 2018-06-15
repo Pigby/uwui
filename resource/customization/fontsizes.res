@@ -32,133 +32,81 @@
 	// Health ==========================================================
 	"HP"
 	{	
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		"font"				"RobotoBlack42"
 	}
 	"HPShadow"
 	{
-		"font"			"RobotoBlack42"
+		"font"				"RobotoBlack42"
 		
 		// for shadows
-		"xpos"			"0"
-		"ypos"			"0"
-		"textinsety"	"1"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		"xpos"				"0"
+		"ypos"				"0"
+		"textinsety"		"1"
 	}
 	// Ammo ===========================================================
-	"AmmoInClip"
-	{
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"textinsetx"	"66"
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"east"
-		// NO TOUCHY PLS ==============
-	}
-	"AmmoInClipShadow"
-	{
-		"font"			"RobotoBlack42"
-		
-		// for shadows
-		"xpos"			"0"
-		"ypos"			"0"
-		"textinsety"	"1"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textinsetx"	"66"
-		"textAlignment"	"east"
-		// NO TOUCHY PLS ==============
-	}
-	
 	"AmmoNoClip"
 	{
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		"font"				"RobotoBlack42"
 	}
 	"AmmoNoClipShadow"
 	{
-		"font"			"RobotoBlack42"
+		"font"				"RobotoBlack42"
 		
 		// for shadows
-		"xpos"			"0"
-		"ypos"			"0"
-		"textinsety"	"1"
+		"xpos"				"0"
+		"ypos"				"0"
+		"textinsety"		"1"
+	}
+	
+	"AmmoInClip"
+	{
+		"font"				"RobotoBlack42"
+	}
+	"AmmoInClipShadow"
+	{
+		"font"				"RobotoBlack42"
 		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		// for shadows
+		"xpos"				"0"
+		"ypos"				"0"
+		"textinsety"		"1"
 	}
 	
 	"AmmoInReserve"
 	{
-		"font"			"RobotoBold28"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textinsetx"	"66"
-		"textAlignment"	"west"
-		// NO TOUCHY PLS ==============
+		"font"				"RobotoBold28"
 	}
 	"AmmoInReserveShadow"
 	{
-		"font"			"RobotoBold28"
+		"font"				"RobotoBold28"
 		
 		// for shadows
-		"xpos"			"0"
-		"ypos"			"0"
-		"textinsety"	"1"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textinsetx"	"66"
-		"textAlignment"	"west"
-		// NO TOUCHY PLS ==============
+		"xpos"				"0"
+		"ypos"				"0"
+		"textinsety"		"1"
 	}
 	// Uber ==========================================================
 	"ChargeLabel"
 	{
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		"font"				"RobotoBlack42"
 	}
 	"IndividualChargesLabel"
 	{
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
+		"font"				"RobotoBlack42"
 	}
-	// DEMOMAN PIPES =================================================
+	
+	
+	// Damage Numbers ================================================
+	"CDamageAccountPanel"
+	{
+		//uses number only fonts to get rid of the minus and plus signs lol
+		//I only have Avenir number only fonts, woops
+		"delta_item_font"		"BoldNumbers16"
+		"delta_item_font_big"	"BoldNumbers16"		//for crits
+	}
+	
+	
+	// Demoman Sticky Counter ========================================
 	"PipesPresentPanel"
 	{
 		"NumPipesLabel"
@@ -181,13 +129,13 @@
 			"font"			"ProductBold16"
 		}
 	}
-	// ENGINEER METAL ================================================
+	// Engineer Metal ================================================
 	"AccountValue"
 	{
-		"font"			"ProductBold16"
+		"font"				"ProductBold16"
 	}
 	"AccountValueShadow"
 	{
-		"font"			"ProductBold16"
+		"font"				"ProductBold16"
 	}
 }

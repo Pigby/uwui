@@ -17,7 +17,7 @@
 		"infocus_bgcolor_override"		"Gray15Solid"
 		"outoffocus_bgcolor_override"	"Gray15Solid"
 		
-		"thumbnail_bgcolor"			"51 47 46 255"
+		"thumbnail_bgcolor"				"51 47 46 255"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
 		
@@ -47,6 +47,7 @@
 			"model_tall"	"38"
 			"text_ypos"		"60"
 			"text_center"	"1"
+			"model_center"	"1"
 			"name_only"		"1"
 			
 			"inset_eq_x"	"2"

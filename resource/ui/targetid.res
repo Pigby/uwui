@@ -127,8 +127,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"				"Gray30"
-		"fgcolor_override"		"Gray30"
+		"fgcolor"				"shadows"
+		"fgcolor_override"		"shadows"
 		"auto_wide_tocontents"	"1"
 		
 		"pin_to_sibling"		"TargetNameLabel"

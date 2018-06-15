@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
+		"wide"			"32"
+		"tall"			"16"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"32"
-		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -20,16 +20,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"textinsety"	"1"
-		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"16"
+		"textinsety"	"1"
+		"zpos"			"5"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ProductBold16"
-		"fgcolor"		"Gray30"
+		"fgcolor"		"shadows"
 		"paintbackgroundtype"	"2"
 		//"bgcolor_override"		"Gray30"
 		
@@ -37,6 +37,21 @@
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	"mem"
 	{
