@@ -6,6 +6,12 @@
 	"Spacer"
 	{
 	}
+	"HPSubSpacer"
+	{
+	}
+	"AmmoSubSpacer"
+	{
+	}
 	"ItemEffectMeter"
 	{
 		"visible"		"0"
@@ -140,7 +146,7 @@
 		"brighttext"	"0"
 		
 		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"6"
+		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"6"
 	}
 
@@ -149,6 +155,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
+		"xpos"			"1"
 		"ypos"			"-10"
 		"zpos"			"2"				
 		"autoResize"	"0"
@@ -160,7 +167,7 @@
 		"brighttext"	"0"
 		
 		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"6"
+		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"6"
 	}
 

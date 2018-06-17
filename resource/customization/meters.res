@@ -10,27 +10,25 @@
 	"ChargeMeter1"
 	{
 		"wide"					"19"
-		"tall"					"2"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter2"
 	{
 		"wide"					"19"
-		"tall"					"2"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
-		"xpos"					"-10"
 	}
 	"ChargeMeter3"
 	{
-		"xpos"					"10"
 		"wide"					"19"
-		"tall"					"2"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter4"
 	{
 		"wide"					"19"
-		"tall"					"2"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter"

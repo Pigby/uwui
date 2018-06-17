@@ -37,7 +37,6 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"Spacer"
 		"xpos"					"cs-0.5"
-		"enabled"				"1"
 	}
 //only match tall values to HP + ammo heights
 	"HPSubSpacer"
@@ -47,7 +46,6 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HPSubSpacer"
 		"wide"					"130"
-		"enabled"				"1"
 		"pin_to_sibling"		"Spacer"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
@@ -59,7 +57,6 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"AmmoSubSpacer"
 		"wide"					"130"
-		"enabled"				"1"
 		"pin_to_sibling"		"Spacer"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"

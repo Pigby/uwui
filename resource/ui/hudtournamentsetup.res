@@ -98,7 +98,7 @@
 		"tabPosition"		"0"
 		"textHidden"		"0"
 		"editable"		"1"
-		"maxchars"		"5"
+		"maxchars"		"6"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"

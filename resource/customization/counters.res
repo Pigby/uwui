@@ -12,7 +12,8 @@
 	{
 		"font"					"ProductBold10"
 		"tall"					"16"
-		"wide"					"32"
+		"wide"					"32" 	//wide is specifically used for the killstreak
+										//for some reason it autoresizes
 		
 		// NO TOUCHY PLS ==============
 		"xpos"					"0"

@@ -6016,6 +6016,69 @@ Scheme
 				"blur"		"1"
 			}
 		}
+		"BlackNumbers18"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"BlackNumbers18blur"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"blur"		"1"
+			}
+		}
+		"BlackNumbers16"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"BlackNumbers16blur"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"blur"		"1"
+			}
+		}
+		"BlackNumbers14"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"BlackNumbers14blur"
+		{
+			"1"
+			{
+				"name"			"BlackNumbers"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"blur"		"1"
+			}
+		}
 		"BoldNumbers42"
 		{
 			"1"

@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"24"
-		"tall"		"24"
+		"wide"		"20"
+		"tall"		"20"
 		"visible"	"1"
 		"enabled"	"1"
 	}
@@ -17,134 +17,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"ControlPointBG"
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"-10"
-		"wide"		"22"
-		"tall"		"22"
+		"wide"		"f0"
+		"tall"		"f0"
 		"visible"	"1"
 		"enabled"	"1"
 		
-		"bgcolor_override"	"Gray30Solid"
+		"bgcolor_override"	"Gray30"
 		
 		"proportionaltoparent"	"1"
 		
-		"paintbackgroundtype"	"2"
-	}
-	
-	"ControlPointBorderTop"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"ControlPointBorderTop"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"5"
-		"wide"		"24"
-		"tall"		"3"
-		"visible"	"0"
-		"enabled"	"1"
-		
-		"bgcolor_override"	"blank"
-		
-		"ControlPointTop"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"ControlPointTop"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"24"
-			"tall"		"6"
-			"visible"	"1"
-			"enabled"	"1"
-			
-			"bgcolor_override"	"Gray30Solid"
-			
-			"paintbackgroundtype"	"2"
-		}
-	}
-	
-	"ControlPointBorderBottom"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"ControlPointBorderTop"
-		"xpos"		"0"
-		"ypos"		"r3"
-		"zpos"		"5"
-		"wide"		"24"
-		"tall"		"3"
-		"visible"	"0"
-		"enabled"	"1"
-		
-		"bgcolor_override"	"blank"
-		
-		"proportionaltoparent"		"1"
-		
-		"ControlPointTop"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"ControlPointTop"
-			"xpos"		"0"
-			"ypos"		"r3-3"
-			"zpos"		"3"
-			"wide"		"24"
-			"tall"		"6"
-			"visible"	"1"
-			"enabled"	"1"
-			
-			"bgcolor_override"	"Gray30Solid"
-			
-			"paintbackgroundtype"	"2"
-			
-			"proportionaltoparent"		"1"
-		}
-	}
-	
-	"ControlPointSides"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"ControlPointBorder"
-		"xpos"		"0"
-		"ypos"		"3"
-		"zpos"		"5"
-		"wide"		"24"
-		"tall"		"19"
-		"visible"	"0"
-		"enabled"	"1"
-		
-		"bgcolor_override"	"blank"
-		
-		"ControlPointLeft"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"ControlPointLeft"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"3"
-			"tall"		"22"
-			"visible"	"1"
-			"enabled"	"1"
-			
-			"bgcolor_override"	"Gray30Solid"
-		}
-		
-		"ControlPointRight"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"ControlPointRight"
-			"xpos"		"r3"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"3"
-			"tall"		"19"
-			"visible"	"1"
-			"enabled"	"1"
-			
-			"bgcolor_override"	"Gray30Solid"
-			
-			"proportionaltoparent"	"1"
-		}
+		"paintbackgroundtype"	"0"
 	}
 	
 	"Countdown"
@@ -165,7 +50,7 @@
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"cs-0.5"
 		"zpos"		"3"
 		"wide"		"7"
 		"tall"		"14"
@@ -173,26 +58,33 @@
 		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
+		
+		"proportionaltoparent"	"1"
 	}
 
 	"CapNumPlayers"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"RobotoBold10"
-		"xpos"			"10"
-		"ypos"			"3"
+		"font"			"ProductBold10"
+		"xpos"			"r14"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"14"
-		"tall"			"21"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
-		"textAlignment"		"west"
+		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		
+		"proportionaltoparent"	"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"			"3"
+		"textinsety"			"10"
 	}
 
 	"OverlayImage"
@@ -218,7 +110,6 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"9"
-		"wide_minmode"			"7"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -229,7 +120,7 @@
 		"wrap"			"0"
 		"font"			"RobotoBold10"
 	}
-				
+	
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
@@ -238,9 +129,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"		"66"
-		"wide_minmode"		"42"
 		"tall"		"33"
-		"tall_minmode"		"21"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"	

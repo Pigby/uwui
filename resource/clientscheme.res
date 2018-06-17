@@ -1,11 +1,25 @@
-#base 	"scheme/uwuicolors.res"		//the other colors lol
-#base 	"scheme/uwuifonts.res"		//idk
-#base 	"scheme/uwuiborders.res"	//actual borders
-#base	"scheme/specborders.res"	//so i remember to delete these things
-
-#base	"customization/colors.res"	//file that holds the color customizations
-
-#base	"scheme/basescheme.res"	//default clientscheme loaded last lol
+//
+// TRACKER SCHEME RESOURCE FILE
+//
+// sections:
+//		colors			- all the colors used by the scheme
+//		basesettings	- contains settings for app to use to draw controls
+//		fonts			- list of all the fonts used by app
+//		borders			- description of all the borders
+//
+//
+// main color variables (still editing)
+#base 	"scheme/uwuicolors.res"
+// font definitions
+#base 	"scheme/uwuifonts.res"
+// menu borders
+#base 	"scheme/uwuiborders.res"
+// specifically turning the tournament spectator borders off
+#base	"scheme/specborders.res"
+// for color customization
+#base	"customization/colors.res"
+// loads in base TF2 style
+#base	"scheme/basescheme.res"
 
 Scheme
 {
@@ -20,7 +34,8 @@ Scheme
 	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// specifies all the custom (non-system) font files that need to be loaded to service the above
+	// described fonts
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -81,99 +96,84 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"10"
+		"100"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"11"
+		"101"
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}
-		"12"
+		"102"
 		{
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}
-		"13"
+		"103"
 		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
 		}
-		"14"
+		"104"
 		{
 			"font" "resource/fonts/MediumNumbers.otf"
 			"name" "MediumNumbers"
 		}
-		"15" 
+		"105" 
 		{
 			"font" "resource/fonts/LightNumbers.otf"
 			"name" "LightNumbers"
 		}
-		"16" 
+		"106" 
 		{
 			"font" "resource/fonts/BoldNumbers.otf"
 			"name" "BoldNumbers"
 		}
-		"17"
+		"107"
 		{
 			"font" "resource/fonts/BlackNumbers.otf"
 			"name" "BlackNumbers.otf"
 		}
-		"18"
+		"201"
 		{
 			"font" "resource/fonts/Roboto-Regular.ttf"
 			"name" "Roboto Regular"
 		}
-		"19"
+		"202"
 		{
 			"font" "resource/fonts/Roboto-Medium.ttf"
 			"name" "Roboto Medium"
 		}
-		"20"
-		{
-			"font" "resource/fonts/Roboto-Thin.ttf"
-			"name" "Roboto Thin"
-		}
-		"21"
-		{
-			"font" "resource/fonts/Roboto-Light.ttf"
-			"name" "Roboto Light"
-		}
-		"22" 
+		"203" 
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
 		}
-		"23" 
+		"204" 
 		{
 			"font" "resource/fonts/Roboto-Black.ttf"
 			"name" "Roboto Black"
 		}
-		"24"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"35" 
-		{
-			"font" "resource/fonts/AdobeBlank.ttf"
-			"name" "Adobe Blank"
-		}
-		"43"
-		{
-			"font" "resource/fonts/Knuck.ttf"
-			"name" "KnucklesCrosses"
-		}
-		"44"
+		"301"
 		{
 			"font"	"resource/fonts/ProductSans-Regular.ttf"
 			"name"	"Product Sans"
 		}
-		"45"
+		"302"
 			"font"	"resource/fonts/ProductSans-Bold.ttf"
 			"name"	"Product Sans Bold"
+		}
+		"401"
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"402" 
+		{
+			"font" "resource/fonts/AdobeBlank.ttf"
+			"name" "Adobe Blank"
 		}
 	}
 }

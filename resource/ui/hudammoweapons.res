@@ -11,6 +11,7 @@
 	"AmmoSubSpacer"
 	{
 	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"

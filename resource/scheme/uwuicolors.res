@@ -3,23 +3,36 @@
 
 Scheme
 {
-	Colors //====================================================================================================
+	Colors //=======================================================================================
 	{	
 	
 		"Tutorial Color"									"0 255 0 128"
 
-	// various extra color variables --------------------------------------------------------------------------
+	// various extra color variables ---------------------------------------------------------------
+	
+		//#5885a2
+		"TeamBlu"											"88 133 162 255"
+		"TeamBluSolid"										"88 133 162 255"
 		
+		//#99ccff
 		"BlueHighlight"										"153 204 255 255"
+		
+		//#b8383b
+		"TeamRed"											"184 56 59 255"
+		"TeamRedSolid"										"184 56 59 255"
+		
+		//#ff4040
 		"RedHighlight"										"255 64 64 255"
 		
-	// I love using gray --------------------------------------------------------------------------------------
-		
+	// I love using gray ---------------------------------------------------------------------------
+	
+		//#1c1f22
 		"Gray15Light"										"28 31 34 60"
 		"Gray15"											"28 31 34 120"
 		"Gray15mid"											"28 31 34 210"
 		"Gray15solid"										"28 31 34 255"
 		
+		//#2a2e30
 		"Gray30Light"										"42 46 48 60"
 		"Gray30"											"42 46 48 120"
 		"Gray30mid"											"42 46 48 210"
@@ -27,18 +40,20 @@ Scheme
 		
 		"Shading"											"0 0 0 120"	
 		
-		"ButtonBG"											"107 107 107 255"		//Standard button color
-		"ButtonArmed"										"54 54 54 255"			//Armed color
+		"ButtonBG"											"107 107 107 255" //Standard button color
+		"ButtonArmed"										"54 54 54 255" //Armed color
 		"ButtonSelect"										"27 27 27 255"
 		
-		"GrayBG"											"74 77 80 255"			//MenuBG
-		"GrayBGDark"										"42 46 48 255"			//Darker MenuBG
+		
+		//unsure if these are actually used right now lol
+		"GrayBG"											"74 77 80 255" //MenuBG
+		"GrayBGDark"										"42 46 48 255" //Darker MenuBG
 		"GrayBGDarkest"										"28 31 34 255"	
-		"GrayText"											"255 255 255 255"		//Text for some menu entries
+		"GrayText"											"255 255 255 255" //Text for some menu entries
 		"FrameGray"											"42 46 48 120"
 		"BlackBorder"										"28 31 34 255"
 		
-	// Menu/Color scheme colors -------------------------------------------------------------------------------
+	// Menu/Color scheme colors --------------------------------------------------------------------
 	
 		"Base Color"										"42 46 48 255"
 		"Button Color"										"42 46 48 120"
@@ -92,12 +107,10 @@ Scheme
 		"TransparentLightBlack"								"15 15 15 90"
 		"FooterBGBlack"										"15 15 15 255"
 		
-		"TeamRed"											"184 56 59 255"
-		"TeamRedSolid"										"184 56 59 255"
-		"TeamBlu"											"88 133 162 255"
-		"TeamBluSolid"										"88 133 162 255"
+		//#5885a2
 		"TeamBlue"											"88 133 162 255"
 		"TeamBlueSolid"										"88 133 162 255"
+		
 		"RedSolid"											"255 255 255 255"		//"192 28 0 255"
 		"BlueSolid"											"0 28 162 255"
 		

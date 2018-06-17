@@ -11,8 +11,6 @@
 		"PositiveColor"			"accentP1"
 		"NegativeColor"			"white"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"BoldNumbers16"
-		"delta_item_font_big"	"BoldNumbers16"
 	}
 	
 	"DamageAccountValue"

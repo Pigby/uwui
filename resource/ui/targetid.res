@@ -1,91 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-	"TargetIDBG"
-	{
-		"alpha"			"0"
-		
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"1"	
-	}
-	"TargetIDBG_Spec_Blue"
-	{
-		"alpha"			"0"
-		
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"8"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		
-		"pin_to_sibling"		"TargetNameLabel"
-		"pin_corner_to_sibling"	"2"
-		"pin_to_sibling_corner"	"3"
-	}
-	"TargetIDBG_Spec_Red"
-	{
-		"alpha"			"255"
-		
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"8"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		
-		"pin_to_sibling"		"TargetNameLabel"
-		"pin_corner_to_sibling"	"2"
-		"pin_to_sibling_corner"	"3"
-	}
-	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
@@ -188,42 +102,6 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
-	"AmmoIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"ypos"			"20"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
-		"scaleImage"	"1"
-		
-		"alpha"			"0"
-	}
-	
-	"KillStreakIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-		
-		"alpha"			"0"
 	}
 	
 	"MoveableSubPanel"
@@ -349,6 +227,69 @@
 			"brighttext"		"0"
 		}
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"40"
+		"ypos"			"20"
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+		
+		"alpha"			"0"
+	}
+	
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"10"
+		"xpos_minmode"	"30"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+		
+		"alpha"			"0"
+	}
+	
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -363,5 +304,83 @@
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
-	}	
+	}
+	"TargetIDBG"
+	{
+		"alpha"			"0"
+		
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"50"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"alpha"			"0"
+		
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"8"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"	 		"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+		
+		"pin_to_sibling"		"TargetNameLabel"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"3"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"alpha"			"0"
+		
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"8"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"	 		"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+		
+		"pin_to_sibling"		"TargetNameLabel"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"3"
+	}
 }

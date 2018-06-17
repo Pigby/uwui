@@ -52,7 +52,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"RobotoBold12"
+		"font"			"ProductBold10"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"textinsetx"	"10"
 		"ypos"			"0"
@@ -91,43 +91,7 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	"TitlePanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TitlePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"117"	
-		"tall"			"12"		
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		
-		"TitleLabelDropshadow"
-		{	
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabelDropshadow"
-			"font"			"blankfont"
-			"xpos"			"0"
-			"textinsetx"	"10"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"117"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Hud_menu_build_title"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"fgcolor"		"blank"
-			"paintbackgroundtype"	"2"
-			"bgcolor_override"		"Gray15Solid"
-		}
-	}
+	
 	"BodyPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -136,34 +100,10 @@
 		"ypos"			"0"
 		"zpos"			"-10"
 		"wide"			"117"
-		"tall"			"110"		
+		"tall"			"60"		
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
-		
-		"Body"
-		{	
-			"ControlName"	"CExLabel"
-			"fieldName"		"Body"
-			"font"			"blankfont"
-			"xpos"			"0"
-			"textinsetx"	"10"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"117"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Hud_menu_build_title"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"fgcolor"		"blank"
-			"paintbackgroundtype"	"2"
-			"bgcolor_override"		"Gray30Solid"
-		}
+		"bgcolor_override"	"Gray30"
 	}
 	"CancelLabel"
 	{	

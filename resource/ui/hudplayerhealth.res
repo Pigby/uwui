@@ -4,15 +4,12 @@
 {	
 	"Spacer"
 	{
-		"bgcolor_override"	"blank"
 	}
 	"HPSubSpacer"
 	{
-		"bgcolor_override"	"blank"
 	}
 	"AmmoSubSpacer"
 	{
-		"bgcolor_override"	"blank"
 	}
 	
 	"HudPlayerHealth"
