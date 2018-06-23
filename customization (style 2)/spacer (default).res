@@ -4,9 +4,9 @@
 //	ypos:
 //		This changes the distance of the UI to the center of the screen, assuming you keep the "c" in the value.
 //			example: c90
-//		Removing the c will space the UI from the top of the screen (not recommended)
+//		Removing the "c" will space the UI from the top of the screen (not recommended)
 //			example: 300
-//		Instead, using an R will space the UI from the bottom of the screen.
+//		Instead, using an "r" will space the UI from the bottom of the screen.
 //			example: r80
 //
 //	wide:

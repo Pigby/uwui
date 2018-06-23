@@ -1,5 +1,8 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
+#base "../../customization/shadows.res"
+#base "../../customization/crosshair.res"
+#base "../../customization/knucklescross.res"
 "Resource/UI/HudPlayerHealth.res"
 {	
 	"Spacer"
@@ -65,6 +68,8 @@
 		"tall"			"50"
 		"textAlignment"	"center"
 		// NO TOUCHY PLS ==============
+		
+		"use_proportional_insets"	"1"
 		
 		"pin_to_sibling" 		"HP"
 		"pin_corner_to_sibling" "3"

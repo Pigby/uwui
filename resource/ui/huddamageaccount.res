@@ -1,5 +1,5 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

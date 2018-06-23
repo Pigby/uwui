@@ -1,4 +1,4 @@
-#base "../../resource/customization/scoreboardsize.res"
+#base "../../customization/scoreboardsize.res"
 "Resource/UI/Scoreboard.res"
 {
 	"scores"

@@ -33,13 +33,15 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"0"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
 		"PositiveColor"			"blank"
 		"NegativeColor"			"blank"
 		"delta_lifetime"		"0.0"
 		"delta_item_font"		"blankfont"
+		
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
@@ -50,7 +52,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"RobotoMedium10"
-			"fgcolor"		"White"
+			"fgcolor"		"white"
 			"xpos"			"cs-1"
 			"ypos"			"3"
 			"zpos"			"3"
@@ -60,7 +62,9 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+			
+			"proportionaltoparent"	"1"
+			
 			if_match
 			{
 			}
@@ -78,13 +82,15 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"0"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
 		"PositiveColor"			"blank"
 		"NegativeColor"			"blank"
 		"delta_lifetime"		"0.0"
 		"delta_item_font"		"blankfont"
+			
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
@@ -95,7 +101,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"RobotoMedium10"
-			"fgcolor"		"White"
+			"fgcolor"		"white"
 			"xpos"			"cs0"
 			"ypos"			"3"
 			"zpos"			"3"
@@ -105,7 +111,9 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+			
+			"proportionaltoparent"	"1"
+			
 			if_match
 			{
 			}

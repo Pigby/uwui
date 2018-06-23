@@ -1,4 +1,4 @@
-#base "../../resource/customization/targetidhp.res"
+#base "../../customization/targetidhp.res"
 "Resource/UI/SpectatorGUIHealth.res"
 {
 	"PlayerStatusHealthValue"

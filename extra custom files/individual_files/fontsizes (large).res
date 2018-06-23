@@ -32,67 +32,49 @@
 	// Health ==========================================================
 	"HP"
 	{	
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBold56"
 	}
 	"HPShadow"
 	{
-		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"0"
-		"ypos"				"0"
-		"textinsety"		"1"
+		"font"				"RobotoBold56"
 	}
 	// Ammo ===========================================================
 	"AmmoNoClip"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBold56"
 	}
 	"AmmoNoClipShadow"
 	{
-		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"0"
-		"ypos"				"0"
-		"textinsety"		"1"
+		"font"				"RobotoBold56"
 	}
 	
 	"AmmoInClip"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBold56"
 	}
 	"AmmoInClipShadow"
 	{
-		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"0"
-		"ypos"				"0"
-		"textinsety"		"1"
+		"font"				"RobotoBold56"
 	}
 	
 	"AmmoInReserve"
 	{
 		"font"				"RobotoBold28"
+		
+		"ypos"				"0"
 	}
 	"AmmoInReserveShadow"
 	{
 		"font"				"RobotoBold28"
-		
-		// for shadows
-		"xpos"				"0"
-		"ypos"				"0"
-		"textinsety"		"1"
 	}
 	// Uber ==========================================================
 	"ChargeLabel"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBold56"
 	}
 	"IndividualChargesLabel"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBold56"
 	}
 	
 	
@@ -101,8 +83,8 @@
 	{
 		//uses number only fonts to get rid of the minus and plus signs lol
 		//I only have Avenir number only fonts, woops
-		"delta_item_font"		"BoldNumbers16"
-		"delta_item_font_big"	"BoldNumbers16"		//for crits
+		"delta_item_font"		"BoldNumbers16ds"
+		"delta_item_font_big"	"BoldNumbers16ds"		//for crits
 	}
 	
 	

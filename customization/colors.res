@@ -14,6 +14,9 @@ Scheme
 			//#ffffff
 		"default"											"255 255 255 255"
 		
+		//by default this matches one of the colors used in the buff animations
+		"reserveammodefault"								"60 255 180 255"
+		
 		// positive color									
 		// (buff, regular reserve ammo)
 			//#3cffb4

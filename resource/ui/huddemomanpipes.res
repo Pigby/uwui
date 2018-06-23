@@ -1,6 +1,6 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
-#base "../../resource/customization/meters.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
+#base "../../customization/meters.res"
 "Resource/UI/HudDemomanPipes.res"
 {
 	"Spacer"

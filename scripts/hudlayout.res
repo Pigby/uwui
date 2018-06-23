@@ -1,5 +1,4 @@
 #base "../../resource/customization/spacer.res"
-
 "Resource/HudLayout.res"
 {
 	"Spacer"
@@ -12,6 +11,43 @@
 	{
 	}
 	
+	CMainTargetID
+	{
+		"fieldName" 	"CMainTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"c20"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"40"
+	}
+	CSecondaryTargetID
+	{
+		"fieldName" 	"CSecondaryTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"c60"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"35"
+	}
+	CSpectatorTargetID
+	{
+		"fieldName" 	"CSpectatorTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"c90"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"40"
+		
+		"x_offset" "20"
+		"y_offset" "20"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -21,59 +57,6 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}
-	
-	"GRID1"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"GRID1"
-		"xpos"					"cs-0.5"
-		"ypos"					"cs-0.5"
-		"zpos"					"0"
-		"wide"					"1"		//"80"
-		"tall"					"1000"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"alpha"					"255"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"0"
-	}
-	"GRID2"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"GRID2"
-		"xpos"					"cs-0.5"
-		"ypos"					"cs-0.5"
-		"zpos"					"0"
-		"wide"					"1000"		//"80"
-		"tall"					"1"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"alpha"					"255"
-		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"test1"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"test1"
-		"xpos"					"cs-0.5"
-		"ypos"					"cs-0.5"
-		"zpos"					"0"
-		"wide"					"20"		//"80"
-		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"alpha"					"255"
-		"bgcolor_override"		"255 0 255 30"
-		"PaintBackgroundType"	"0"
 	}
 	
 	HudWeaponAmmo
@@ -280,49 +263,6 @@
 		"ypos"		"0"		//"r70"
 		"wide"		"f0"
 		"tall"		"f0"
-	}
-
-	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c20"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
-	}
-	
-	CSpectatorTargetID
-	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c90"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
-		
-		"x_offset" "20"
-		"y_offset" "20"
-	}
-	
-	"TopSpacer"
-	{
-	}
-	
-	CSecondaryTargetID
-	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c60"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"35"
 	}
 	
 	BuildingStatus_Spy
@@ -837,7 +777,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"separator_width"		"1"	// distance between the icons (including their backgrounds)
-		"separator_height"		"2"
+		"separator_height"		"3"
 		"height_offset"			"0" // distance from the bottom of the panel
 	}
 
@@ -1011,8 +951,8 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
+		"xpos"			"3"
+		"ypos"			"c0"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"

@@ -37,11 +37,6 @@
 	"HPShadow"
 	{
 		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"1"
-		"ypos"				"1"
-		"textinsety"		"1"
 	}
 	// Ammo ===========================================================
 	"AmmoNoClip"
@@ -51,11 +46,6 @@
 	"AmmoNoClipShadow"
 	{
 		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"1"
-		"ypos"				"1"
-		"textinsety"		"1"
 	}
 	
 	"AmmoInClip"
@@ -65,11 +55,6 @@
 	"AmmoInClipShadow"
 	{
 		"font"				"RobotoBlack42"
-		
-		// for shadows
-		"xpos"				"1"
-		"ypos"				"1"
-		"textinsety"		"1"
 	}
 	
 	"AmmoInReserve"
@@ -79,11 +64,6 @@
 	"AmmoInReserveShadow"
 	{
 		"font"				"RobotoBold28"
-		
-		// for shadows
-		"xpos"				"1"
-		"ypos"				"0"
-		"textinsety"		"2"
 	}
 	// Uber ==========================================================
 	"ChargeLabel"

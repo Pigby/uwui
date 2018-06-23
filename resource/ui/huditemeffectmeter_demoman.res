@@ -1,5 +1,5 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/counters.res"
+#base "../../customization/spacer.res"
+#base "../../customization/counters.res"
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	"Spacer"

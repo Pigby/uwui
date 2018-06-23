@@ -239,7 +239,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/bg_black"
+				"image"			"vgui/replay/thumbnails/bg_black"
 
 				"src_corner_height"	"25"				// pixels inside the image
 				"src_corner_width"	"25"
@@ -470,7 +470,6 @@
 			"visible"		"0"
 			"ypos"			"0-2"
 		}
-		
 	}
 	
 	"BottomBG"

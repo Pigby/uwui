@@ -1,5 +1,5 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/meters.res"
+#base "../../customization/spacer.res"
+#base "../../customization/meters.res"
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter

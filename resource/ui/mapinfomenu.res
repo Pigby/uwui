@@ -24,7 +24,7 @@
 		"zpos"			"-99"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"0 0 0 180"
+		"bgcolor_override"	"shading"
 	}
 	
 	"MapInfoTitle"

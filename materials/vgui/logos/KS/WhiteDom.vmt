@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/logos/KS/WhiteDom"
+	"$baseTexture" "vgui/logos/ks/whitedom"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

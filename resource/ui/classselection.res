@@ -24,7 +24,7 @@
 		"zpos"			"-99"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"Shading"
+		"bgcolor_override"	"shading"
 	}
 	
 	"bg"

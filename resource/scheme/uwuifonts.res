@@ -96,31 +96,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"	//"Adobe Blank"
 				"tall"		"1"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"	//"Adobe Blank"
 				"tall"		"1"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"	//"Adobe Blank"
 				"tall"		"1"
 				"weight"	"0"
 			}
 			"4"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"	//"Adobe Blank"
 				"tall"		"1"
 				"weight"	"0"
 			}
 			"5"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"	//"Adobe Blank"
 				"tall"		"1"
 				"weight"	"0"
 			}
@@ -2035,11 +2035,12 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
 		"BlankFont"
 		{
 			"1"
 			{
-				"name"		"Adobe Blank"
+				"name"		"BlankSerif"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"

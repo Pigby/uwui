@@ -8,7 +8,7 @@
 //		borders			- description of all the borders
 //
 //
-// main color variables (still editing)
+// main color variables
 #base 	"scheme/uwuicolors.res"
 // font definitions
 #base 	"scheme/uwuifonts.res"
@@ -18,6 +18,10 @@
 #base	"scheme/specborders.res"
 // for color customization
 #base	"customization/colors.res"
+// basic crosshair support
+#base	"scheme/crosshairs.res"
+// knuckles cross support
+#base	"scheme/knucklescrosses.res"
 // loads in base TF2 style
 #base	"scheme/basescheme.res"
 
@@ -96,6 +100,26 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
+		"80"
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+		"90"
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"91" 
+		{
+			"font" "resource/fonts/AdobeBlank.ttf"
+			"name" "Adobe Blank"
+		}
+		"92" 
+		{
+			"font" "resource/fonts/Blank.ttf"
+			"name" "BlankSerif"
+		}
 		"100"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
@@ -164,16 +188,6 @@ Scheme
 		"302"
 			"font"	"resource/fonts/ProductSans-Bold.ttf"
 			"name"	"Product Sans Bold"
-		}
-		"401"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"402" 
-		{
-			"font" "resource/fonts/AdobeBlank.ttf"
-			"name" "Adobe Blank"
 		}
 	}
 }

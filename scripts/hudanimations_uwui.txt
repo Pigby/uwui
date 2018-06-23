@@ -45,99 +45,6 @@
 
 //===========================================
 
-//Health Bonus Pulse
-event HudHealthBonusPulse
-{
-	Animate HP						FgColor	"accentP2"			Linear		0.0		0.0
-	Animate PlayerStatusHealthValue FgColor "accentP2"			Linear		0.0		0.0
-	RunEvent HudHealthBonusPulseLoop	0.0001
-}
-
-// call to loop HudHealthBonusPulse
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBuffLoop 0.0
-}
-
-event HudHealthBuffLoop
-{
-	Animate HP						FgColor	"accentP1"			Accel		0.0		0.5
-	Animate HP						FgColor	"accentP2" 			Linear		0.5		0.5
-	Animate PlayerStatusHealthValue FgColor "accentP1"			Accel		0.0		0.5
-	Animate PlayerStatusHealthValue FgColor "accentP2" 			Linear		0.5		0.5
-	RunEvent HudHealthBonusPulseLoop	1.0
-}
-
-event HudHealthBonusPulseStop
-{
-	Animate HP						FgColor	"default" 			Accel		0.0		0.0
-	Animate PlayerStatusHealthValue FgColor "default" 			Accel		0.0		0.0
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBuffLoop 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-}
-
-//===========================================
-
-//Health Dying Pulse
-event HudHealthDyingPulse
-{
-	Animate HP						FgColor	"accentN2"			Linear		0.0		0.0
-	Animate PlayerStatusHealthValue FgColor "accentN2"			Linear		0.0		0.0
-	RunEvent HudHealthDyingPulseLoop	0.0001
-}
-
-// call to loop HudHealthDyingPulse
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthHurtLoop 0.0
-}
-
-event HudHealthHurtLoop
-{
-	Animate HP						FgColor	"accentN1"			Accel		0.0		0.5
-	Animate HP						FgColor	"accentN2" 			Linear		0.5		0.5
-	Animate PlayerStatusHealthValue FgColor "accentN1"			Accel		0.0		0.5
-	Animate PlayerStatusHealthValue FgColor "accentN2" 			Linear		0.5		0.5
-	RunEvent HudHealthDyingPulseLoop	1.0
-}
-
-event HudHealthDyingPulseStop
-{
-	Animate HP						FgColor	"default" 				Accel		0.0		0.0
-	Animate PlayerStatusHealthValue FgColor "default" 				Accel		0.0		0.0
-	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthHurtLoop 0.0
-	StopEvent HudHealthDyingPulseLoop 0.0
-}
-
-//===========================================
-
-event HudLowAmmoPulse
-{
-	Animate AmmoInReserve			FgColor	"accentN1"	Linear		0.0		0.3
-	Animate AmmoInReserve			FgColor	"white" 				Accel		0.3		0.2
-	Animate AmmoNoClip 				FgColor "accentN1"	Linear		0.0		0.3
-	Animate AmmoNoClip 				FgColor "white" 				Accel		0.3		0.2
-	
-	RunEvent HudLowAmmoPulseLoop	0.25
-}
-
-// call to loop HudLowAmmoPulse
-event HudLowAmmoPulseLoop
-{
-	RunEvent HudLowAmmoPulse 0.0
-}
-
-event HudLowAmmoPulseStop
-{
-	Animate AmmoInReserve			FgColor	"accentP1" 			Accel		0.0		0.0
-	Animate AmmoNoClip 				FgColor "default" 			Accel		0.0		0.0
-	
-	StopEvent HudLowAmmoPulse 0.0
-	StopEvent HudLowAmmoPulseLoop 0.0
-}
-
 //===========================================
 
 event ControlPointIconShrink
@@ -275,35 +182,35 @@ event DamagedPlayer
 // Active Timer BG Pulse
 event ActiveTimerBGPulse
 {
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
 	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
 	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+	//Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	//Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
 }
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue FgColor	"white"			Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"accentP2"		Linear 0.3 0.1
+	Animate TimePanelValue Alpha	"120"		Linear 0.1 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 0.3 0.1
 
-	Animate TimePanelValue FgColor	"white"			Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"accentP2"		Linear 0.7 0.1
+	Animate TimePanelValue Alpha	"180"		Linear 0.5 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 0.7 0.1
 
-	Animate TimePanelValue FgColor	"white"			Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"accentP2"		Linear 1.1 0.1
+	Animate TimePanelValue Alpha	"210"		Linear 0.9 0.1
+	Animate TimePanelValue Alpha	"255"		Linear 1.1 0.1
 
-	Animate TimePanelValue FgColor	"accentP2"		Linear 1.3 0.3
+	Animate TimePanelValue Alpha	"255"		Linear 1.3 0.3
 	
 }
 
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	"white"		Linear 0.0 0.4
+	Animate TimePanelValue Alpha	"120"		Linear 0.0 0.4
 }
 
 //===========================================

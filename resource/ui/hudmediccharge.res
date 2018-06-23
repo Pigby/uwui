@@ -1,6 +1,6 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
-#base "../../resource/customization/meters.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
+#base "../../customization/meters.res"
 "Resource/UI/HudMedicCharge.res"
 {	
 	"Spacer"
@@ -60,7 +60,36 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"zpos"			"1"
+		"autoResize"	"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"			//"#TF_Ubercharge"
+		
+		"font"			"RobotoBlack42"
+		
+		// NO TOUCHY PLS ==============
+		"wide"			"130"
+		"tall"			"50"
+		"textAlignment"	"center"
+		// NO TOUCHY PLS ==============
+		
+		"xpos"			"1"
+		"ypos"			"1"
+		"textinsety"	"1"
+		"use_proportional_insets"	"1"
+		"fgcolor"		"shadows"
+		
+		"pin_to_sibling"		"ChargeLabel"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"3"
+	}
+	
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -198,10 +227,9 @@
 		"fieldName"		"HealthClusterIcon"
 		"xpos"			"2"
 		"ypos"			"17"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	

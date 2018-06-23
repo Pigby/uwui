@@ -1,5 +1,6 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
+#base "../../customization/shadows.res"
 "Resource/UI/HudAmmoWeapons.res"
 {	
 	"Spacer"
@@ -65,7 +66,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor"		"accentP1"
+		"fgcolor"		"reserveammodefault"
 		
 		// NO TOUCHY PLS ==============
 		"wide"			"130"

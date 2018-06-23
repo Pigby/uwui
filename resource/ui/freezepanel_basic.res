@@ -129,7 +129,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"200"
+			"wide"			"0"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -138,7 +138,7 @@
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
 			
-			"bgcolor_override"	"255 0 255 0"
+			"bgcolor_override"	"0 0 0 0"
 			
 			"proportional_to_parent"	"1"
 			
@@ -331,8 +331,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"99999"
+		"ypos"			"99999"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"

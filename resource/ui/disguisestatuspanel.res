@@ -1,4 +1,4 @@
-#base "base_spacer.res"
+#base "../../customization/spacer.res"
 "Resource/UI/ItemModelPanel.res"
 {
 	"Spacer"
