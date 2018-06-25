@@ -1,5 +1,5 @@
-#base "../../resource/customization/spacer.res"
-#base "../../resource/customization/fontsizes.res"
+#base "../../customization/spacer.res"
+#base "../../customization/fontsizes.res"
 "Resource/UI/HudAccountPanel.res"
 {	
 	"Spacer"
@@ -74,7 +74,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
+		"fgcolor"		"default"
 		"bgcolor_override"	"0 255 255 0"
 		
 		"pin_to_sibling"		"Spacer"

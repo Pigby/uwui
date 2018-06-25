@@ -17,7 +17,7 @@
 // specifically turning the tournament spectator borders off
 #base	"scheme/specborders.res"
 // for color customization
-#base	"customization/colors.res"
+#base "../customization/customcolors.res"
 // basic crosshair support
 #base	"scheme/crosshairs.res"
 // knuckles cross support

@@ -108,6 +108,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"		"default"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -185,6 +186,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"		"blank"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -203,7 +205,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"shadows"
+			"fgcolor"		"blank"
 			
 			"pin_to_sibling" 		"NumPipesLabel"
 			"pin_corner_to_sibling" "6"
