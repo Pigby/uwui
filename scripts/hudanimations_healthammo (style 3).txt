@@ -74,6 +74,7 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
+	Animate AmmoInClip				FgColor	"accentN2"	Linear		0.0		0.3
 	Animate AmmoInReserve			FgColor	"accentN1"	Linear		0.0		0.3
 	Animate AmmoNoClip 				FgColor "accentN1"	Linear		0.0		0.3
 	
@@ -88,6 +89,8 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
+	
+	Animate AmmoInClip				FgColor	"default"				Accel		0.0		0.0
 	Animate AmmoInReserve			FgColor	"reserveammodefault" 	Accel		0.0		0.0
 	Animate AmmoNoClip 				FgColor "default" 				Accel		0.0		0.0
 	
