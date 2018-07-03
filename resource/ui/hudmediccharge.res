@@ -1,153 +1,56 @@
+//controls the posiitoning on screen
 #base "../../customization/spacer.res"
+//controls the sizes of the fonts used
 #base "../../customization/fontsizes.res"
+//controls the offsets for shadows
+#base "../../customization/shadows.res"
+//controls meter sizing
 #base "../../customization/meters.res"
+//contains most of the actual contents normally contained in this file
+#base "base_files/base_sizer.res"
 "Resource/UI/HudMedicCharge.res"
-{	
-	"Spacer"
-	{
-	}
-	"HPSubSpacer"
-	{
-	}
-	"AmmoSubSpacer"
-	{
-	}
-	"ItemEffectMeter"
-	{
-		"visible"		"0"
-	}
-	
-	"Background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"130"
-		"tall"			"65"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
-	}
-	
+{		
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabel"
-		"zpos"			"2"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"			//"#TF_Ubercharge"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
-		
-		"fgcolor"		"default"
-		
-		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+			//#TF_Ubercharge"
+		"labelText"		"#TF_UberchargeMinHUD"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"zpos"			"1"
-		"autoResize"	"1"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"			//"#TF_Ubercharge"
-		
-		"font"			"RobotoBlack42"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
-		
-		"xpos"			"1"
-		"ypos"			"1"
-		"textinsety"	"1"
-		"use_proportional_insets"	"1"
-		"fgcolor"		"shadows"
-		
-		"pin_to_sibling"		"ChargeLabel"
-		"pin_corner_to_sibling"	"3"
-		"pin_to_sibling_corner"	"3"
+			//"#TF_Ubercharge"
+		"labelText"		"#TF_UberchargeMinHUD"
 	}
-	
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"IndividualChargesLabel"
-		"zpos"			"2"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_IndividualUberchargesMinHUD"		//"#TF_IndividualUbercharges"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
-		
-		"fgcolor"		"default"
-		
-		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+			//"#TF_IndividualUbercharges"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
 	}
-	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"ypos"			"-10"
-		
-		"zpos"			"2"			
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"zpos"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		
 		"pin_to_sibling"		"Spacer"
 		"pin_corner_to_sibling"	"6"
 		"pin_to_sibling_corner"	"6"
-	}		
-
+	}
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
@@ -158,16 +61,13 @@
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"2"
 	}
-
 	"ChargeMeter2"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
 		"ypos"			"-10"
-		"zpos"			"2"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"zpos"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
@@ -178,17 +78,14 @@
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"6"
 	}
-
 	"ChargeMeter3"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"-10"
-		"zpos"			"2"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"zpos"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
@@ -199,17 +96,14 @@
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"6"
 	}
-
 	"ChargeMeter4"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"			
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"zpos"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
@@ -220,21 +114,6 @@
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"3"
 	}
-	
-	"HealthClusterIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthClusterIcon"
-		"xpos"			"2"
-		"ypos"			"17"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
-	
 	"Anchor"
 	{
 		"ControlName"			"EditablePanel"
@@ -250,7 +129,6 @@
 		"pin_corner_to_sibling"	"5"
 		"pin_to_sibling_corner"	"5"
 	}
-	
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -267,5 +145,50 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
+	"Spacer"
+	{
+	}
+	"HPSubSpacer"
+	{
+	}
+	"AmmoSubSpacer"
+	{
+	}
+	"ItemEffectMeter"
+	{
+		"visible"		"0"
+	}
 	
+	
+	
+	
+	"HealthClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthClusterIcon"
+		"xpos"			"2"
+		"ypos"			"17"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ico_health_cluster"
+		"scaleImage"	"1"	
+	}	
+	"Background"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/medic_charge_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/medic_charge_red_bg"
+		"teambg_3"		"../hud/medic_charge_blue_bg"				
+	}
 }

@@ -1,0 +1,102 @@
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate PlayerHP				alpha	"0"					Linear		0.0		0.0
+	Animate BuffHP					alpha	"210"				Linear		0.0		0.0
+	Animate HPBuff					alpha	"120"				Linear		0.0		0.0
+	Animate HP						FgColor	"accentP2"			Linear		0.0		0.0
+	Animate PlayerStatusHealthValue FgColor "accentP2"			Linear		0.0		0.0
+	Animate targetidbuff			Alpha	"120"				Linear		0.0		0.0
+	RunEvent HudHealthBonusPulseLoop	0.0001
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBuffLoop 0.0
+}
+
+event HudHealthBuffLoop
+{
+	Animate targetidbuff			Alpha	"120"				Linear		0.0		0.0
+	Animate HP						FgColor	"accentP1"			Accel		0.0		0.5
+	Animate HP						FgColor	"accentP2" 			Linear		0.5		0.5
+	Animate PlayerStatusHealthValue FgColor "accentP1"			Accel		0.0		0.5
+	Animate PlayerStatusHealthValue FgColor "accentP2" 			Linear		0.5		0.5
+	RunEvent HudHealthBonusPulseLoop	1.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate PlayerHP				alpha	"255"				Linear		0.0		0.0
+	Animate BuffHP					alpha	"0"					Linear		0.0		0.0
+	Animate HPBuff					alpha	"0"					Linear		0.0		0.0
+	Animate HP						FgColor	"default" 			Accel		0.0		0.0
+	Animate PlayerStatusHealthValue FgColor "default" 			Accel		0.0		0.0
+	Animate targetidbuff			alpha	"0"					Linear		0.0		0.0
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBuffLoop 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate HP						FgColor	"accentN2"			Linear		0.0		0.0
+	Animate PlayerStatusHealthValue FgColor "accentN2"			Linear		0.0		0.0
+	Animate targetidlow				Alpha	"120"				Linear		0.0		0.0
+	RunEvent HudHealthDyingPulseLoop	0.0001
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthHurtLoop 0.0
+}
+
+event HudHealthHurtLoop
+{
+	Animate targetidlow				Alpha	"120"				Linear		0.0		0.0
+	Animate HP						FgColor	"accentN1"			Accel		0.0		0.5
+	Animate HP						FgColor	"accentN2" 			Linear		0.5		0.5
+	Animate PlayerStatusHealthValue FgColor "accentN1"			Accel		0.0		0.5
+	Animate PlayerStatusHealthValue FgColor "accentN2" 			Linear		0.5		0.5
+	RunEvent HudHealthDyingPulseLoop	1.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate HP						FgColor	"default" 				Accel		0.0		0.0
+	Animate PlayerStatusHealthValue FgColor "default" 				Accel		0.0		0.0
+	Animate targetidlow				alpha	"0"						Linear		0.0		0.0
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthHurtLoop 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{
+	Animate AmmoInReserve			FgColor	"accentN1"	Linear		0.0		0.3
+	Animate AmmoNoClip 				FgColor "accentN1"	Linear		0.0		0.3
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	Animate AmmoInReserve			FgColor	"reserveammodefault" 	Accel		0.0		0.0
+	Animate AmmoNoClip 				FgColor "default" 				Accel		0.0		0.0
+	
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+}

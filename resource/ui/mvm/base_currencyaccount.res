@@ -1,0 +1,93 @@
+"Resource/UI/HudCurrencyAccount.res"
+{
+	"Anchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Anchor"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"blank"
+	}
+	"Currency"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Currency"
+		"font"			"ProductBold10"
+		"fgcolor"		"white"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"3"
+		"wide"			"90"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+		
+		"auto_wide_tocontents"		"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"				"10"
+		
+		"bgcolor_override"			"Gray30"
+		
+		"pin_to_sibling"		"Anchor"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"3"
+	}	
+	"CurrencyShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyShadow"
+		"font"			"ProductBold10"
+		"fgcolor"		"blank"
+		"xpos"			"3"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+		
+		"auto_wide_tocontents"		"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"				"10"
+		
+		"bgcolor_override"	"blank"		//"CreditsGreen"
+	}
+	"GreenBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"GreenBG"
+		"xpos"			"27"
+		"ypos"			"72"
+		"zpos"			"2"
+		"wide"			"58"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"blank"
+	}
+	"WhiteBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WhiteBG"
+		"xpos"			"26"
+		"ypos"			"71"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"blank"
+	}
+}

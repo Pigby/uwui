@@ -1,20 +1,18 @@
+//controls the posiitoning on screen
 #base "../../customization/spacer.res"
+//controls the sizes of the fonts used
 #base "../../customization/fontsizes.res"
+//controls the offsets for shadows
 #base "../../customization/shadows.res"
+//contains most of the actual contents normally contained in this file
+#base "base_files/base_sizer.res"
+
+//adds crosshairs to this file so they disappear when you're dead
 #base "../../customization/crosshair.res"
 #base "../../customization/knucklescross.res"
+
 "Resource/UI/HudPlayerHealth.res"
 {	
-	"Spacer"
-	{
-	}
-	"HPSubSpacer"
-	{
-	}
-	"AmmoSubSpacer"
-	{
-	}
-	
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -30,65 +28,34 @@
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-	
 	"HP"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HP"
 		"labelText"		"%Health%"
-		"fgcolor"		"default"
-		"zpos"			"7"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
-		
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"		"Spacer"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
 	}		
 	"HPShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HPShadow"
 		"labelText"		"%Health%"
-		"fgcolor"		"shadows"
-		"zpos"			"6"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		// NO TOUCHY PLS ==============
-		"wide"			"130"
-		"tall"			"50"
-		"textAlignment"	"center"
-		// NO TOUCHY PLS ==============
-		
-		"use_proportional_insets"	"1"
-		
-		"pin_to_sibling" 		"HP"
-		"pin_corner_to_sibling" "3"
-		"pin_to_sibling_corner" "3"
 	}
-	
+	"Spacer"
+	{
+	}
+	"HPSubSpacer"
+	{
+	}
+	"AmmoSubSpacer"
+	{
+	}
 	"Status Anchor"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StatusAnchor"
 		"xpos"			"0"
 		"ypos"			"r24-3"
-		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"1"
 	}
-	
 	"PlayerStatusBleedImage"
 	{
 		
@@ -270,7 +237,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -331,7 +297,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -352,7 +317,6 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -373,7 +337,6 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -414,6 +377,29 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		
+		"pin_to_sibling" 		"StatusAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+		
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
+	
+	
+	//mannpower
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
@@ -653,28 +639,10 @@
 		
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
-	}	
-	"PlayerStatusSlowed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusSlowed"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		
-		"pin_to_sibling" 		"StatusAnchor"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-		
-		"image"			"../vgui/slowed"
-		"fgcolor"		"TanDark"
 	}
 	
+	
+	//currently unsure what these do
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
@@ -691,7 +659,6 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
-	
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -712,28 +679,7 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	// player health data	
+	// health cross, very undesired
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -782,13 +728,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"ypos"			"52"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
@@ -798,11 +744,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"ypos"			"20"
-		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"18"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"

@@ -28,19 +28,13 @@
 
 		if_mvm
 		{
-			"team1_player_base_y"			"37"
-			"team2_player_base_y"			"37"
+			"team1_player_base_y"			"70"
+			"team2_player_base_y"			"70"
 			"team2_player_delta_x"			"33"
 		}
 		
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-
-			"team1_player_base_y"			"75"
-			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"1"
 		}
 		
 		if_readymode
@@ -174,7 +168,7 @@
 				"tall"			"16"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgcolor_override"		"Gray30"
+				"bgcolor_override"		"Gray30Mid"
 				"PaintBackgroundType"	"0"
 				
 				"proportionaltoparent"	"1"
@@ -239,7 +233,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"vgui/replay/thumbnails/bg_black"
+				"image"			"replay/thumbnails/bg_black"
 
 				"src_corner_height"	"25"				// pixels inside the image
 				"src_corner_width"	"25"
@@ -251,17 +245,14 @@
 				
 				if_mvm
 				{
-					"visible"		"1"
 				}
 				
 				if_competitive
 				{
-					"visible"		"1"
 				}
 				
 				if_readymode
 				{
-					"visible"		"1"
 				}		
 			}
 			
@@ -494,7 +485,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 		if_readymode
 		{

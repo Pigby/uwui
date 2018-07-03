@@ -317,15 +317,6 @@
 			
 			if_match
 			{
-				//"proportionaltoparent"	"1"
-
-				//"xpos"			"cs-0.5"
-				//"ypos"			"12"
-				//"ypos_minmode"	"12"
-				//"tall"			"10"
-				//"font"			"HudFontSmall"
-				//"font_minmode"	"HudFontSmall"
-				//"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}
@@ -349,11 +340,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" 	"west"
-		"team1_base_x"		"cs0-31-1"		//"c-34"
+		"team1_base_x"		"cs0-31-1"
 		"team1_max_expand"	"108"
 
 		"team2_grow_dir" 	"east"
-		"team2_base_x"		"cs0+32+1"		//"c35"
+		"team2_base_x"		"cs0+32+1"
 		"team2_max_expand"	"108"
 
 		"playerpanels_kv"
@@ -363,10 +354,10 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"				"Gray30Solid"		//"119 62 61 255"
-			"color_portrait_bg_blue"			"Gray30Solid"		//"62 81 101 255"
-			"color_portrait_bg_red_dead"		"Gray30Solid"	//"79 54 52 255"
-			"color_portrait_bg_blue_dead"		"Gray30Solid"	//"44 49 51 255"
+			"color_portrait_bg_red"				"Gray30Solid"
+			"color_portrait_bg_blue"			"Gray30Solid"
+			"color_portrait_bg_red_dead"		"Gray30Solid"
+			"color_portrait_bg_blue_dead"		"Gray30Solid"
 			"color_bar_health_high"				"blank"
 			"color_bar_health_med"				"accentM1"
 			"percentage_health_med"				"0.7"
@@ -380,11 +371,11 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"xpos"			"0"
+				"ypos"			"-10"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
@@ -436,7 +427,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "blank"
+				"bgcolor_override"		"blank"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -456,61 +447,9 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "accentP1"
+				"bgcolor_override"		"0 0 0 0"
+				"fgcolor_override"		"accentP1"
 				"proportionaltoparent"	"1"
-			}
-			"HealthIcon"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"0"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
-			}
-			"ReadyBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
-				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
-			}
-			"ReadyImage"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
-				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"hud/checkmark"
-				"scaleImage"	"1"
 			}
 			"respawntime"
 			{
@@ -567,6 +506,90 @@
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
 			}
+			
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"24"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"	
+			}
+			"SkullPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SkullPanel"
+				"xpos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"o1.2"
+				"tall"			"p0.15"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status_skull"	
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"	
+			}
+			
+			//why the fuck is this shit here ???
+			"HealthIcon"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"HealthIcon"
+				"xpos"				"22"
+				"ypos"				"-3"
+				"zpos"				"3"
+				"wide"				"0"
+				"tall"				"0"
+				"visible"			"0"
+				"enabled"			"1"	
+				"HealthBonusPosAdj"	"10"
+				"HealthDeathWarning"		"0.49"
+				"TFFont"					"HudFontSmallest"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"TextColor"					"HudOffWhite"
+			}
+			"ReadyBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"30"
+				"ypos"			"6"
+				"zpos"			"-1"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/tournament_panel_brown"
+				"src_corner_height"	"22"				// pixels inside the image
+				"src_corner_width"	"22"
+				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"3"
+			}
+			"ReadyImage"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"ReadyImage"
+				"xpos"			"32"
+				"ypos"			"8"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"hud/checkmark"
+				"scaleImage"	"1"
+			}
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -600,35 +623,6 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-			}
-			"DeathPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"DeathPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"24"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
-			}
-			"SkullPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"o1.2"
-				"tall"			"p0.15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
 			}
 		}
 	}

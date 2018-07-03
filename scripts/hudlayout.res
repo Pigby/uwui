@@ -14,38 +14,42 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c20"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
+		"ypos"			"c20"
+		"tall"			"35"
+		"priority"		"40"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"xpos"			"0"
+		"wide"			"f0"
 	}
+	
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c60"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"35"
+		"ypos"			"c60"
+		"tall"			"35"
+		"priority"		"35"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"xpos"			"0"
+		"wide"			"f0"
 	}
+	
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c90"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
+		"ypos"			"c90"
+		"tall"			"35"
+		"priority"		"40"
+		"visible"		"0"
+		"enabled"		"1"
 		
-		"x_offset" "20"
-		"y_offset" "20"
+		"xpos"			"0"
+		"wide"			"f0"
+		"x_offset"		"3"
+		"y_offset"		"3"
 	}
 	
 	HudPlayerStatus
@@ -79,7 +83,7 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
+	}
 	
 	HudKothTimeStatus
 	{
@@ -96,8 +100,8 @@
 	
 		"red_active_xpos"			"9999"
 		"red_active_xpos_minmode"	"9999"
-	}	
-
+	}
+	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
@@ -133,8 +137,8 @@
 		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}	
-
+	}
+	
 	HudBowCharge
 	{
 		"alpha"			"0"
@@ -144,12 +148,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
+	
 	HudFlameRocketCharge
 	{
 		"fieldName"		"HudFlameRocketCharge"
@@ -163,7 +167,80 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
+	
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"  				"f0"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+	
+	DisguiseStatus
+	{
+		"fieldName" "DisguiseStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"		//"5"
+		"ypos"		"0"		//"r70"
+		"wide"		"f0"
+		"tall"		"f0"
+	}
+	
+	CHealthAccountPanel
+	{
+		"fieldName"				"CHealthAccountPanel"
+		"xpos"					"3"
+		"ypos"					"r58"
+		"wide"					"116"
+		"tall"  				"30"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"0"
+	}
+	
+	CDamageAccountPanel
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"0"
+	}
+	
+	BuildingStatus_Spy
+	{
+		"fieldName" "BuildingStatus_Spy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+	
+	BuildingStatus_Engineer
+	{
+		"fieldName" "BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"21"
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+	
 	HudBossHealth
 	{
 		"fieldName"		"HudBossHealth"
@@ -177,7 +254,7 @@
 		"MeterFG"		"Red"
 		"MeterBG"		"Gray"
 	}
-
+	
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
@@ -215,80 +292,6 @@
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
-	}	
-	
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"  				"f0"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CHealthAccountPanel
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"3"
-		"ypos"					"r58"
-		"wide"					"116"
-		"tall"  				"30"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"0"
-	}
-	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"		//"5"
-		"ypos"		"0"		//"r70"
-		"wide"		"f0"
-		"tall"		"f0"
-	}
-	
-	BuildingStatus_Spy
-	{
-		"fieldName" "BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
-	BuildingStatus_Engineer
-	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"21"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
 	}
 	
 	HudMannVsMachineStatus
@@ -300,9 +303,9 @@
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
-		"tall"		"480"
+		"tall"		"f0"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudProgressBar
@@ -319,7 +322,7 @@
 
 		"PaintBackgroundType"	"2"
 	}
-
+	
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
@@ -915,10 +918,8 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		//"xpos"			"3"
-		//"ypos"			"275"
-		//"wide"	 		"320"
-		//"tall"	 		"120"
+		"xpos"			"3"
+		"ypos"			"19+1"
 		"PaintBackgroundType"	"0"
 	}
 	

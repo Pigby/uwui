@@ -1,0 +1,19 @@
+#base "mvm/base_inworldcurrency.res"
+"Resource/UI/MvMInWorldCurrency.res"
+{
+	"BorderBG"
+	{
+	}	
+	"BackgroundGood"
+	{
+	}
+	"MoneyImagePanel"
+	{
+	}
+	"CurrencyGood"
+	{
+	}
+	"CurrencyBad"
+	{
+	}
+}

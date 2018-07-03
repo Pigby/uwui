@@ -25,7 +25,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		
-		"bgcolor_override"	"Gray30"
+		"bgcolor_override"	"blank"
 		
 		"proportionaltoparent"	"1"
 		

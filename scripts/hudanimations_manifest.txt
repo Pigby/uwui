@@ -1,7 +1,11 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
-	"file"		"scripts/hudanimations_uwui.txt"
-	"file"		"scripts/hudanimations_healthammo.txt"
-	"file"		"scripts/hudanimations_tf.txt"
+	"file"		"scripts/animations/hudanimations_uwui.txt"
+	
+	"file"		"scripts/animations/hudanimations_healthammodefault.txt"
+	//"file"		"scripts/animations/hudanimations_healthammostyle2.txt"
+	//"file"		"scripts/animations/hudanimations_healthammostyle3.txt"
+	
+	"file"		"scripts/animations/hudanimations_tf.txt"
 }
