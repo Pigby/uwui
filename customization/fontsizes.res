@@ -70,6 +70,10 @@
 	{
 		"font"				"RobotoBlack42"
 	}
+	"ChargeLabelShadow"
+	{
+		"font"				"RobotoBlack42"
+	}
 	"IndividualChargesLabel"
 	{
 		"font"				"RobotoBlack42"

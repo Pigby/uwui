@@ -1,4 +1,4 @@
-#base "base_building.res"
+#base "base_files/base_building.res"
 "Resource/UI/hud_obj_tele_exit.res"
 {
 	"BuildingStatusItem"

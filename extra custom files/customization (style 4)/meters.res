@@ -9,40 +9,40 @@
 //stickybomb launcher
 	"ChargeMeter1"
 	{
-		"wide"					"14"
-		"tall"					"2"
+		"wide"					"20"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter2"
 	{
-		"wide"					"14"
-		"tall"					"2"
+		"wide"					"20"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter3"
 	{
-		"wide"					"14"
-		"tall"					"2"
+		"wide"					"20"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter4"
 	{
-		"wide"					"14"
-		"tall"					"2"
+		"wide"					"20"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter"
 	{	
-		"wide"					"60"
-		"tall"					"2"
+		"wide"					"80"
+		"tall"					"3"
 		
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"Gray30"
 	}
 	"ItemEffectMeter"
 	{	
-		"wide"					"60"
-		"tall"					"2"
+		"wide"					"80"
+		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 		
 		

@@ -1,18 +1,8 @@
-#base "base_building.res"
+#base "base_files/base_building.res"
 "Resource/UI/hud_obj_dispenser.res"
 {
 	"BuildingStatusItem"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"150"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"Background"

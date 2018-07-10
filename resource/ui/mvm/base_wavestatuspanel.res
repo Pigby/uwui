@@ -15,9 +15,9 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_white"
 		"drawcolor"		"Gray30"
-		"alpha"			"120"
+		"alpha"			"180"
 		//"image"			"../HUD/tournament_panel_brown"
-
+		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
@@ -61,7 +61,7 @@
 		
 		if_verbose
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	
@@ -78,12 +78,12 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"				"west"
-		"labelText"					"#TF_MVM_Support"
+		"textAlignment"		"west"
+		"labelText"			"#TF_MVM_Support"
 		
 		if_verbose
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}		
 	}
 	

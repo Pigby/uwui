@@ -1,11 +1,13 @@
-//controls the posiitoning on screen
+//controls the spacing
 #base "../../customization/spacer.res"
 //controls the sizes of the fonts used
 #base "../../customization/fontsizes.res"
-//controls the offsets for shadows
+//controls the offset for the shadows
 #base "../../customization/shadows.res"
-//contains most of the actual contents normally contained in this file
+//extracts main values for editing
 #base "base_files/base_sizer.res"
+//moves the rest of the values to a different file
+#base "base_files/base_ammo.res"
 "Resource/UI/HudAmmoWeapons.res"
 {	
 	"Spacer"
@@ -18,47 +20,25 @@
 	{
 	}
 	
-	"mem"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"mem"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"tall"			"12"
-		"wide"			"f0"
-		"bgcolor_override"	"255 0 255 0"
-	}
-	
 	"AmmoInClip"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%Ammo%"
 	}		
 	"AmmoInClipShadow"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%Ammo%"
 	}						
 	"AmmoInReserve"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%AmmoInReserve%"
 	}		
 	"AmmoInReserveShadow"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%AmmoInReserve%"
 	}									
 	"AmmoNoClip"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%Ammo%"
 	}	
 	"AmmoNoClipShadow"
 	{
-		"ControlName"	"CExLabel"
-		"labelText"		"%Ammo%"
 	}
+}
 
 	
 	

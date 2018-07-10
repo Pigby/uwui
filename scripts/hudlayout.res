@@ -11,6 +11,296 @@
 	{
 	}
 	
+	"AlignmentChecker"
+	{
+		"fieldName"		"AlignmentChecker"
+		"ControlName"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"tall"			"f0"
+		"wide"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"zpos"			"-999"
+		
+		"proportionaltoparent"	"1"
+		
+		"TopCheck"
+		{
+			"fieldName"		"TopCheck"
+			"ControlName"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"3"
+			"tall"			"16"
+			"wide"			"f6"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"zpos"			"-999"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"0 255 0 20"
+			
+			"hudcentertimercheck"
+			{
+				"fieldName"		"hudcentertimercheck"
+				"ControlName"	"EditablePanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"0"
+				"tall"			"16"
+				"wide"			"60"
+				"visible"		"1"
+				"enabled"		"1"
+				
+				"zpos"			"-999"
+				
+				"proportionaltoparent"	"1"
+				
+				"bgcolor_override"	"255 255 0 60"
+			}
+		}
+		"TopCheck2"
+		{
+			"fieldName"		"TopCheck2"
+			"ControlName"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"16+1+3"
+			"tall"			"16"
+			"wide"			"f6"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"zpos"			"-999"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"0 255 0 20"
+		}
+		"BottomCheck"
+		{
+			"fieldName"		"BottomCheck"
+			"ControlName"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-3"
+			"tall"			"16"
+			"wide"			"f6"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"zpos"			"-999"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"0 255 0 20"
+		}
+		"BottomCheck2"
+		{
+			"fieldName"		"BottomCheck2"
+			"ControlName"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-3-16-1"
+			"tall"			"16"
+			"wide"			"f6"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"zpos"			"-999"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"0 255 0 20"
+		}
+		"ControlPointCheck"
+		{
+			"fieldName"		"ControlPointCheck"
+			"ControlName"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-3"
+			"tall"			"24"
+			"wide"			"124"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"zpos"			"-999"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"255 255 0 60"
+		}
+		"CenterPos"
+		{
+			"fieldName"		"CenterPos"
+			"ControlName"	"EditablePanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"f0"
+			"wide"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"proportionaltoparent"	"1"
+			
+			"CenterLineVert"
+			{
+				"fieldName"		"CenterLineVert"
+				"ControlName"	"EditablePanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"1"
+				"bgcolor_override"	"255 0 255 30"
+				
+				"proportionaltoparent"	"1"
+			}
+			
+			"CenterLineHoriz"
+			{
+				"fieldName"		"CenterLineHoriz"
+				"ControlName"	"EditablePanel"
+				"xpos"			"0"
+				"ypos"			"cs-0.5"
+				"tall"			"1"
+				"wide"			"f0"
+				"bgcolor_override"	"255 0 255 30"
+				
+				"proportionaltoparent"	"1"
+			}
+		}
+		
+		"Border"
+		{
+			"fieldName"		"Border"
+			"ControlName"	"EditablePanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"f0"
+			"wide"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"proportionaltoparent"	"1"
+			
+			"TopBarrier"
+			{
+				"fieldName"		"TopBarrier"
+				"ControlName"	"EditablePanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"tall"			"3"
+				"wide"			"f0"
+				"bgcolor_override"	"0 255 255 120"
+				
+				"proportionaltoparent"	"1"
+			}
+			"BottomBarrier"
+			{
+				"fieldName"		"BottomBarrier"
+				"ControlName"	"EditablePanel"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"tall"			"3"
+				"wide"			"f0"
+				"bgcolor_override"	"0 255 255 120"
+				
+				"proportionaltoparent"	"1"
+			}
+			"LeftBarrier"
+			{
+				"fieldName"		"LeftBarrier"
+				"ControlName"	"EditablePanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"3"
+				"bgcolor_override"	"0 255 255 120"
+				
+				"proportionaltoparent"	"1"
+			}
+			"RightBarrier"
+			{
+				"fieldName"		"RightBarrier"
+				"ControlName"	"EditablePanel"
+				"xpos"			"rs1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"3"
+				"bgcolor_override"	"0 255 255 120"
+				
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+	
+	"TOPBLINDERLOL"
+	{
+		"fieldName"		"TOPBLINDERLOL"
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"f0"
+		"wide"			"f0"
+		"zpos"			"-999"
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"bgcolor_override"	"0 0 0 255"
+		"pin_to_sibling"		"AlignmentChecker"
+		"pin_corner_to_sibling"	"6"
+		"pin_to_sibling_corner"	"4"
+	}
+	"BOTTOMBLINDERLOL"
+	{
+		"fieldName"		"BOTTOMBLINDERLOL"
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"f0"
+		"wide"			"f0"
+		"zpos"			"-999"
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"bgcolor_override"	"0 0 0 255"
+		"pin_to_sibling"		"AlignmentChecker"
+		"pin_corner_to_sibling"	"4"
+		"pin_to_sibling_corner"	"6"
+	}
+	"LEFTBLINDERLOL"
+	{
+		"fieldName"		"LEFTBLINDERLOL"
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"f0"
+		"wide"			"f0"
+		"zpos"			"-999"
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"bgcolor_override"	"0 0 0 255"
+		"pin_to_sibling"		"AlignmentChecker"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
+	}
+	"RIGHTBLINDERLOL"
+	{
+		"fieldName"		"RIGHTBLINDERLOL"
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"f0"
+		"wide"			"f0"
+		"zpos"			"-999"
+		"visible"		"0"
+		"enabled"		"0"
+		
+		"bgcolor_override"	"0 0 0 255"
+		"pin_to_sibling"		"AlignmentChecker"
+		"pin_corner_to_sibling"	"5"
+		"pin_to_sibling_corner"	"7"
+	}
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -233,10 +523,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"21"
-		"wide"		"640"
-		"tall"		"480"
+		"xpos"		"-10"
+		"ypos"		"10+1"
+		"wide"		"f0"
+		"tall"		"f0"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -431,16 +721,16 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
+	
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r400-3"
-		"ypos"	 "19"
+		"ypos"	 "18"
 		"wide"	 "400"
-		"tall"	 "468"
+		"tall"	 "f18"
 
 		"MaxDeathNotices"	"7"
 		"IconScale"			"0.10"

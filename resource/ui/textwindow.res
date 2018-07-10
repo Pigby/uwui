@@ -108,6 +108,24 @@
 		"armedBgColor_override"			"Gray30Mid"
 	}
 	
+	"HTMLMessage"
+	{
+		"ControlName"		"HTML"
+		"fieldName"		"HTMLMessage"
+		"xpos"			"3"
+		"ypos"			"19+1"
+		"zpos"			"1"
+		"wide"			"f6"
+		"tall"			"440"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"		"0"
+		"paintborder"	"0"
+		
+		"fgcolor_override"	"Gray30"
+	}
 	
 	
 	
@@ -189,25 +207,6 @@
 		"fieldName"		"TextMessage"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-	
-	"HTMLMessage"
-	{
-		"ControlName"		"HTML"
-		"fieldName"		"HTMLMessage"
-		"xpos"			"3"
-		"ypos"			"19+1"
-		"zpos"			"1"
-		"wide"			"p1"
-		"tall"			"440"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"		"0"
-		"paintborder"	"0"
-		
-		"fgcolor_override"	"Gray30"
 	}
 	
 	"ShadedBar"

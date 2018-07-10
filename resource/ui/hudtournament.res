@@ -28,8 +28,8 @@
 
 		if_mvm
 		{
-			"team1_player_base_y"			"70"
-			"team2_player_base_y"			"70"
+			"team1_player_base_y"			"90"
+			"team2_player_base_y"			"90"
 			"team2_player_delta_x"			"33"
 		}
 		

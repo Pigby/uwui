@@ -32,29 +32,29 @@
 	// Health ==========================================================
 	"HP"
 	{	
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	"HPShadow"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	// Ammo ===========================================================
 	"AmmoNoClip"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	"AmmoNoClipShadow"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	
 	"AmmoInClip"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	"AmmoInClipShadow"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	
 	"AmmoInReserve"
@@ -68,11 +68,11 @@
 	// Uber ==========================================================
 	"ChargeLabel"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	"IndividualChargesLabel"
 	{
-		"font"				"RobotoBlack42"
+		"font"				"RobotoBlack46"
 	}
 	
 	

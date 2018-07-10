@@ -161,7 +161,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"BluePlayerList"
@@ -223,7 +223,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamName"
-		"font"			"heavy16"
+		"font"			"Heavy16"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"0"
@@ -537,31 +537,6 @@
 			"visible"		"0"
 		}
 	}
-	
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"11"
-		"xpos_hidef"	"31"
-		"ypos"			"60"
-		"ypos_lodef"	"62"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
-	}
 	"TimerBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -803,22 +778,24 @@
 			"visible"		"0"
 		}
 	}
-	"ServerLabelNew"
+	"LabelServer"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabelNew"
-		"font"			"RobotoMedium10"
-		"labelText"		"%server%"
+		"fieldName"		"LabelServer"
+		"font"			"RobotoBlack8"
+		"allcaps"		"1"
+		"labelText"		"server:"
 		"textAlignment"		"west"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"499"
+		"wide"			"34"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"white"
 		
 		"use_proportional_insets"	"1"
 		"textinsetx"		"5"
@@ -826,6 +803,35 @@
 		"pin_to_sibling"		"BottomBG"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerLabelNew"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabelNew"
+		"font"			"ProductBold10"
+		"labelText"		"%server%"
+		"textAlignment"		"west"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"462"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"use_proportional_insets"	"1"
+		"textinsetx"		"0"
+		
+		"pin_to_sibling"		"LabelServer"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"1"
 		
 		if_mvm
 		{
@@ -876,7 +882,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"HorizontalLine"
@@ -898,7 +904,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -923,7 +929,6 @@
 			"visible"		"0"
 		}
 	}
-
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -1695,7 +1700,28 @@
 			"enabled"		"0"
 		}
 	}
-
+	"MvMScoreboard"
+	{
+		"ControlName"		"CTFHudMannVsMachineScoreboard"
+		"fieldName"			"MvMScoreboard"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"verbose"			"1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+	
+	
+	
 	"ButtonLegendBG"		[$X360]
 	{
 		"ControlName"	"ImagePanel"
@@ -1713,7 +1739,6 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
-	
 	"ButtonLegend"		[$X360]
 	{
 		"ControlName"	"EditablePanel"
@@ -1843,26 +1868,6 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-	}				
-	
-	"MvMScoreboard"
-	{
-		"ControlName"		"CTFHudMannVsMachineScoreboard"
-		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"10"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"1"
-		
-		"verbose"			"1"
-		
-		if_mvm
-		{
-			"visible"		"1"
 		}
 	}
 	
@@ -2426,6 +2431,31 @@
 				"origin_y"		"-2"
 				"origin_z"		"-82"
 			}
+		}
+	}
+	
+	
+	
+	"ServerLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabel"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%server%"
+		"textAlignment"		"west"
+		"xpos"			"11"
+		"ypos"			"60"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+			"visible"		"0"
 		}
 	}
 }

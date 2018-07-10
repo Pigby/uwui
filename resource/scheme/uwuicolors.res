@@ -76,16 +76,6 @@ Scheme
 		"qtcwhite"											"235 235 235 255"
 		"qtcflv"											"75 220 65 255"
 		"qtcflv2"											"235 120 10 255"
-		
-        //"Gray"												"150 150 150 255"		//advanced options text
-		//"FrameGray"											"16 16 16 255"			//"89 89 89 255"			//Top Border Color
-		//"GrayBG"											"30 30 30 255"			//Main Background Color
-		//"GrayBGDark"										"16 16 16 255"			//Inventory Item Panel Empty Color
-		//"GrayBGDarkest"										"16 16 16 255"			//Item Panel Background
-		//"GrayText"											"89 89 89 255"			//Top Text (inactive)
-		//"BlackBorder"										"16 16 16 255"			//Border Color
-
-        "UberMeter%"										"142 142 142 0"			//% label in the charge meter
         
         "HudBGBuilding"										"0 0 0 0"				//Building Panel BG
         "HudBG"												"42 46 48 255"			//This prevents stupid white boxes from being drawn over certain panels

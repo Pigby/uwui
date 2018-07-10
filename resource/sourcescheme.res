@@ -6,6 +6,8 @@
 
 //I stole this from ahud and then changed a bunch of stuff, but thanks any how to the ahud guy. :)
 #base "SourceSchemeBase.res"
+// for color customization
+#base "../customization/customcolors.res"
 Scheme
 {
 	Colors
@@ -24,13 +26,13 @@ Scheme
 		"Black"												"30 31 34 255"
 		"TransparentBlack"									"30 31 34 210"
 		
-		"accentP1"											"60 255 180 255"
-		"accentP2"											"60 255 120 255"
+		//"accentP1"											"60 255 180 255"
+		//"accentP2"											"60 255 120 255"
 		
-		"accentM1"											"255 180 80 255"
+		//"accentM1"											"255 180 80 255"
 		
-		"accentN1"											"255 90 160 255"
-		"accentN2"											"255 70 70 255"
+		//"accentN1"											"255 90 160 255"
+		//"accentN2"											"255 70 70 255"
 		
 		"Gray15Light"										"30 31 34 60"
 		"Gray15"											"30 31 34 120"

@@ -58,4 +58,12 @@
 		"ypos"				"0"
 		"textinsety"		"1"
 	}
+	
+	// Uber ===========================================================
+	"ChargeLabelShadow"
+	{
+		"xpos"				"0"
+		"ypos"				"0"
+		"textinsety"		"1"
+	}
 }

@@ -32,30 +32,30 @@
 	// Health ==========================================================
 	"HPShadow"
 	{
-		"xpos"				"1"
-		"ypos"				"1"
+		"xpos"				"2"
+		"ypos"				"2"
 		"textinsety"		"1"
 	}
 	
 	// Ammo ===========================================================
 	"AmmoNoClipShadow"
 	{
-		"xpos"				"1"
-		"ypos"				"1"
+		"xpos"				"2"
+		"ypos"				"2"
 		"textinsety"		"1"
 	}
 	
 	"AmmoInClipShadow"
 	{
-		"xpos"				"1"
-		"ypos"				"1"
+		"xpos"				"2"
+		"ypos"				"2"
 		"textinsety"		"1"
 	}
 	
 	"AmmoInReserveShadow"
 	{
 		"xpos"				"1"
-		"ypos"				"0"
-		"textinsety"		"2"
+		"ypos"				"1"
+		"textinsety"		"1"
 	}
 }

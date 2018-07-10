@@ -9,25 +9,25 @@
 //stickybomb launcher
 	"ChargeMeter1"
 	{
-		"wide"					"19"
+		"wide"					"20"
 		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter2"
 	{
-		"wide"					"19"
+		"wide"					"20"
 		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter3"
 	{
-		"wide"					"19"
+		"wide"					"20"
 		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}
 	"ChargeMeter4"
 	{
-		"wide"					"19"
+		"wide"					"20"
 		"tall"					"3"
 		"bgcolor_override"		"Gray30"
 	}

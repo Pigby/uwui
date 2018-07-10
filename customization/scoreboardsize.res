@@ -3,19 +3,19 @@
 // GUIDE ON TALL VALUES
 //
 //	6v6
-//		tall 	= 102
+//		tall 	= 103
 //		ypos 	= cs-0.5+120
 //
 //	9v9
-//		tall	= 150
+//		tall	= 151
 //		ypos	= cs-0.5+90
 //
 //	12v12 	
-//		tall 	= 198
+//		tall = 199
 //		ypos	= cs-0.5+80
 //
 //	16v16 	
-//		tall	= 272
+//		tall	= 273
 //		ypos	= cs-0.5+50
 //
 // Currently, defaults to 9v9 with 6v6 minmode.
@@ -27,20 +27,20 @@
 {	
 	"MainBG"
 	{
-		"tall"			"150"
-		"tall_minmode"	"102"
+		"tall"			"151"
+		"tall_minmode"	"103"
 		
 		"ypos"			"cs-0.5+80"
 		"ypos_minmode"	"cs-0.5+120"
 	}
 	"BluePlayerList"
 	{
-		"tall"			"150"
-		"tall_minmode"	"102"
+		"tall"			"151"
+		"tall_minmode"	"103"
 	}
 	"RedPlayerList"
 	{
-		"tall"			"150"
-		"tall_minmode"	"102"
+		"tall"			"151"
+		"tall_minmode"	"103"
 	}
 }
