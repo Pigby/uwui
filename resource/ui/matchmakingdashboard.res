@@ -65,7 +65,7 @@
 			"PaintBackgroundType"	"0"
 			"border"		"blankborder"
 			"proportionaltoparent"	"1"
-			
+
 			"bgcolor_override"	"Gray30Solid"
 		}
 
@@ -91,8 +91,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"0"
-			"tall"			"0"
+			"wide"			"45"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -137,7 +137,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"3"
+			"xpos"			"45"
 			"ypos"			"3"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -173,7 +173,7 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"1"
-			
+
 			"pin_to_sibling"		"PartySlot0"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -198,7 +198,7 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"2"
-			
+
 			"pin_to_sibling"		"PartySlot1"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -223,7 +223,7 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"3"
-			
+
 			"pin_to_sibling"		"PartySlot2"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -248,7 +248,7 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"4"
-			
+
 			"pin_to_sibling"		"PartySlot3"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -273,12 +273,12 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"5"
-			
+
 			"pin_to_sibling"		"PartySlot4"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
 		}
-		
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
@@ -296,7 +296,7 @@
 			"show_model"	"0"
 			"show_type"		"1"
 		}
-		
+
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -363,10 +363,10 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"button_activation_type"	"1"
-			
+
 				"paintbackground"	"0"
-				"paintborder"		"0"				
-			}		
+				"paintborder"		"0"
+			}
 
 			"CTFLogoPanel"
 			{
@@ -446,13 +446,13 @@
 				"Command"		"manage_queues"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -468,8 +468,8 @@
 					"enabled"		"1"
 					"image"			"glyph_options"
 					"scaleImage"	"1"
-				}				
-			}		
+				}
+			}
 
 			"CloseButton"
 			{
@@ -496,13 +496,13 @@
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -518,8 +518,8 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
-			}		
+				}
+			}
 		}
 
 		"JoinPartyLobbyContainer"
@@ -581,7 +581,7 @@
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-			}		
+			}
 
 			"JoinNowButton"
 			{
@@ -598,7 +598,7 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -648,13 +648,13 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"font"						"ProductBold10"
 			"textAlignment"				"center"
 			"textinsetx"				"0"
 			"labeltext"					"Exit"
 			"allcaps"					"0"
-			
+
 			"defaultBgColor_override"	"0 0 0 120"
 			"armedBgColor_override"		"accentN2"
 
@@ -715,7 +715,7 @@
 			"labeltext"					"Leave"
 			//"labeltext"					"#TF_Disconnect"
 			"allcaps"					"0"
-			
+
 			"defaultBgColor_override"	"0 0 0 120"
 			"armedBgColor_override"		"accentN2"
 
@@ -742,7 +742,7 @@
 				"drawcolor_override" "blank"
 			}
 		}
-		
+
 		"FindAGameButton1"
 		{
 			"ControlName"	"CExImageButton"
@@ -765,11 +765,11 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-			
+
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"font"				"ProductBold10"
 			"labeltext"			"Search"			//"#MMenu_FindAGame"
 			"textAlignment"		"center"
@@ -777,14 +777,14 @@
 			"textinsetx"		"0"
 			"use_proportional_insets"	"1"
 			"allcaps"			"0"
-			
+
 			"fgcolor_override"			"white"
 			"defaultFgColor_override"	"white"
 			"armedFgColor_override"		"Gray30Solid"
-			
+
 			"defaultBgColor_override"	"0 0 0 120"
 			"armedBgColor_override"		"accentM1"
-			
+
 			"image_drawcolor"			"blank"
 			"image_armedcolor"			"blank"
 
@@ -805,7 +805,7 @@
 				"drawcolor_override" "blank"
 			}
 		}
-		
+
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -828,12 +828,12 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-			
+
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			
+
+
 			"font"				"ProductBold10"
 			"labeltext"			"Search"			//"#MMenu_FindAGame"
 			"textAlignment"		"center"
@@ -841,14 +841,14 @@
 			"textinsetx"		"0"
 			"use_proportional_insets"	"1"
 			"allcaps"			"0"
-			
+
 			"fgcolor_override"			"white"
 			"defaultFgColor_override"	"white"
 			"armedFgColor_override"		"white"
-			
+
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
-			
+
 			"image_drawcolor"			"blank"
 			"image_armedcolor"			"blank"
 
@@ -869,7 +869,7 @@
 				"drawcolor_override" "blank"
 			}
 		}
-		
+
 		"ResumeButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -888,7 +888,7 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			
+
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -897,11 +897,11 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"font"			"ProductBold10"
 			"textAlignment"	"center"
 			"labeltext"		"Resume"				//"#MMenu_ResumeGame"
-			
+
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
 
